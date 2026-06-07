@@ -13,6 +13,7 @@
 		{
 			dependencies: ["7BFD7BBFE3748698"]
 			description: ["{ze.quest.404.des}"]
+			hide_until_deps_complete: true
 			icon: "cyber_ware_port:radio_kit"
 			id: "3ECCB7C8080B0136"
 			rewards: [{
@@ -33,6 +34,7 @@
 		{
 			dependencies: ["3ECCB7C8080B0136"]
 			description: ["{ze.quest.407.des}"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:netherite_helmet"
@@ -249,6 +251,7 @@
 				"4F4A22B98E645E20"
 			]
 			description: ["{ze.quest.406.des}"]
+			hide_until_deps_complete: true
 			icon: "cyber_ware_port:body_part_heart"
 			id: "0CA8AEA23E5A9EE7"
 			rewards: [{
@@ -302,6 +305,7 @@
 		{
 			dependencies: ["3ECCB7C8080B0136"]
 			description: ["{ze.quest.408.des}"]
+			hide_until_deps_complete: true
 			id: "5DECC3A74418E55B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -539,6 +543,7 @@
 				"2EACCE6635A1E44E"
 			]
 			description: ["{ze.quest.409.des}"]
+			hide_until_deps_complete: true
 			icon: "minecolonies:golden_bread"
 			id: "3A439F287C466827"
 			rewards: [{
@@ -611,6 +616,7 @@
 		{
 			dependencies: ["3ECCB7C8080B0136"]
 			description: ["{ze.quest.410.des}"]
+			hide_until_deps_complete: true
 			id: "2FFF1B3F40780EF1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -632,6 +638,7 @@
 		{
 			dependencies: ["3ECCB7C8080B0136"]
 			description: ["{ze.quest.411.des}"]
+			hide_until_deps_complete: true
 			id: "77B1B450AEC86454"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -664,6 +671,7 @@
 		{
 			dependencies: ["3ECCB7C8080B0136"]
 			description: ["{ze.quest.412.des}"]
+			hide_until_deps_complete: true
 			id: "53C6B178609601C0"
 			rewards: [{
 				exclude_from_claim_all: true

@@ -492,7 +492,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["17D7504688846061"]
+			dependencies: [
+				"17D7504688846061"
+				"1D6DDF34FA178D24"
+			]
 			description: [
 				"{ze.quest.112.des}"
 				"{image:kubejs:textures/quest/matrix1.png width:160 height:90 align:center}"
@@ -532,7 +535,7 @@
 				}
 			]
 			title: "{ze.quest.112.title}"
-			x: 1.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -1719,8 +1722,105 @@
 				}
 			]
 			title: "{ze.quest.389.title}"
-			x: 1.0d
+			x: 0.5d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5D0CC3EAEDD47AD7"
+				"0EDDF25419520E6E"
+			]
+			description: ["{ze.quest.415.des}"]
+			id: "572BED16DE6100D9"
+			rewards: [{
+				id: "6EA2DD2A47EB766F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.415.subtitle}"
+			tasks: [
+				{
+					id: "3DFA98E9865E1E24"
+					item: {
+						Count: 1
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14B2C5F24B754E74"
+					item: {
+						Count: 1
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "074F8ABB2017EEBF"
+					item: {
+						Count: 1
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18EFDCDE76DA97CD"
+					item: {
+						Count: 1
+						id: "industrialforegoing:range_addon3"
+						tag: {
+							TitaniumAugment: {
+								Range: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ze.quest.415.title}"
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.418.des}"]
+			id: "79C5175C51625D40"
+			rewards: [{
+				id: "06B65ABCB8A94CDE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.418.subtitle}"
+			tasks: [
+				{
+					id: "466448E9DA6B6029"
+					item: { Count: 8, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+				{
+					id: "2327A15710A7C0B9"
+					item: { Count: 8, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.418.title}"
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["{ze.quest.chatper.fd.subtitle}"]

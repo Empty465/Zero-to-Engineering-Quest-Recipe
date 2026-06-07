@@ -1105,6 +1105,43 @@
 			x: 8.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["62390067D99E850C"]
+			description: ["{ze.quest.417.des}"]
+			icon: "create:schematic_and_quill"
+			id: "6FD1CC4FCDA75AAC"
+			rewards: [{
+				id: "271E8D28B8946250"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.417.subtitle}"
+			tasks: [
+				{
+					id: "0FF60D0699F26E8D"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "3A3DD0AD7375759D"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "64B5D5EF2FB10BFF"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					id: "0EE4B71094EF495D"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.417.title}"
+			x: 1.0d
+			y: -1.0d
+		}
 	]
 	subtitle: ["{ze.quest.chatper.d.subtitle}"]
 	title: "{ze.quest.chapter.d}"

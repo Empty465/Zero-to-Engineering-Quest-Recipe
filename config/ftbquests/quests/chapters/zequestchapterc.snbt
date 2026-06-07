@@ -818,6 +818,51 @@
 			x: 7.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["1A0F9A5910B162ED"]
+			description: [
+				"{ze.quest.416.des}"
+				"{image:kubejs:textures/quest/spatial1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/spatial2.png width:160 height:90 align:center}"
+				"{ze.quest.416.des2}"
+			]
+			icon: "ae2:spatial_io_port"
+			id: "4ED712A98F9E475D"
+			rewards: [{
+				id: "70C6DA7E7EBF4BFE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.416.subtitle}"
+			tasks: [
+				{
+					id: "37C3B8F74F795292"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "598524C1D30612EA"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "5CEB7FC7827E3810"
+					item: {
+						Count: 1
+						id: "ae2:spatial_storage_cell_2"
+						tag: {
+							plot_id: 1
+							plot_size: 549755822082L
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ze.quest.416.title}"
+			x: -1.5d
+			y: -4.0d
+		}
 	]
 	subtitle: ["{ze.quest.chapter.c.subtitle}"]
 	title: "{ze.quest.chapter.c}"
