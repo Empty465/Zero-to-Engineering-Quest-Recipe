@@ -942,6 +942,11 @@
 					type: "item"
 				}
 				{
+					id: "5217A63FD488D65C"
+					item: "mekanism:dosimeter"
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
 					id: "173017E70583E52A"
 					table_id: 6462801880492370807L
