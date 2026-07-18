@@ -570,6 +570,7 @@
 				"7C320289F4D2DE51"
 			]
 			description: ["{ze.quest.63.des}"]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:arc_furnace"
 			id: "6629CE74DADDA1A3"
 			rewards: [{

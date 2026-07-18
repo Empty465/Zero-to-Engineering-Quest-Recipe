@@ -147,7 +147,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5C77D75C592B0777"]
+			dependencies: ["2AEA68DAC3E5B274"]
 			description: ["{ze.quest.255.des}"]
 			hide_until_deps_complete: true
 			icon: {

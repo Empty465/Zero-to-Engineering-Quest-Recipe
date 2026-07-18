@@ -1129,7 +1129,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4F528AEB4EECA88F"]
+			dependencies: ["1A9AE0BC07EC0079"]
 			description: ["{ze.quest.291.des}"]
 			hide_until_deps_complete: true
 			icon: "cataclysm:the_annihilator"
