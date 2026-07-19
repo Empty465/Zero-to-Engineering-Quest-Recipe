@@ -32,7 +32,10 @@
 		}
 		{
 			dependencies: ["73E92F7F44FE51E7"]
-			description: ["{ze.quest.249.des}"]
+			description: [
+				"{ze.quest.249.des}"
+				"{image:entity:minecraft:ender_dragon width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "3730EDAA88600593"
 			rewards: [{
@@ -81,7 +84,10 @@
 		}
 		{
 			dependencies: ["1B4E94D710F65EE0"]
-			description: ["{ze.quest.252.des}"]
+			description: [
+				"{ze.quest.252.des}"
+				"{image:entity:cataclysm:ender_guardian width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "285E6213D4CDE877"
 			rewards: [{
@@ -105,7 +111,10 @@
 		}
 		{
 			dependencies: ["1B4E94D710F65EE0"]
-			description: ["{ze.quest.251.des}"]
+			description: [
+				"{ze.quest.251.des}"
+				"{image:entity:cataclysm:ender_golem width:96 height:96 align:center}"
+			]
 			id: "0590CBC6E8F7EE5F"
 			rewards: [{
 				exclude_from_claim_all: true

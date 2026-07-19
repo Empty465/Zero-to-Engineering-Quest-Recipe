@@ -543,7 +543,10 @@
 		{
 			can_repeat: false
 			dependencies: ["5D0B1ECF92B4EF09"]
-			description: ["{ze.quest.312.des}"]
+			description: [
+				"{ze.quest.312.des}"
+				"{image:entity:mutantmonsters:mutant_zombie width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "7E79C096D4783148"
 			rewards: [{
@@ -574,7 +577,10 @@
 		{
 			can_repeat: false
 			dependencies: ["5D0B1ECF92B4EF09"]
-			description: ["{ze.quest.313.des}"]
+			description: [
+				"{ze.quest.313.des}"
+				"{image:entity:mutantmonsters:mutant_skeleton width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "416093ECDE56D9B4"
 			rewards: [{
@@ -605,7 +611,10 @@
 		{
 			can_repeat: false
 			dependencies: ["5D0B1ECF92B4EF09"]
-			description: ["{ze.quest.314.des}"]
+			description: [
+				"{ze.quest.314.des}"
+				"{image:entity:mutantmonsters:mutant_creeper width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "2A383480CBA5FA55"
 			rewards: [{
@@ -636,7 +645,10 @@
 		{
 			can_repeat: false
 			dependencies: ["5D0B1ECF92B4EF09"]
-			description: ["{ze.quest.315.des}"]
+			description: [
+				"{ze.quest.315.des}"
+				"{image:entity:mutantmonsters:mutant_enderman width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "23A5CAEA64FB9173"
 			rewards: [{
@@ -730,7 +742,10 @@
 				"43617D5A29E14F84"
 				"11AB1AC3AF2E8F85"
 			]
-			description: ["{ze.quest.334.des}"]
+			description: [
+				"{ze.quest.334.des}"
+				"{image:entity:minecraft:wither width:96 height:96 align:center}"
+			]
 			icon: "ftb_ph:wither"
 			id: "523640F75B4263CB"
 			rewards: [{
@@ -754,7 +769,10 @@
 				"43617D5A29E14F84"
 				"0A1210CF7629BEB3"
 			]
-			description: ["{ze.quest.335.des}"]
+			description: [
+				"{ze.quest.335.des}"
+				"{image:entity:cataclysm:netherite_monstrosity width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: false
 			icon: {
 				Count: 1
@@ -785,7 +803,10 @@
 				"43617D5A29E14F84"
 				"5D61A5BF8A48C319"
 			]
-			description: ["{ze.quest.336.des}"]
+			description: [
+				"{ze.quest.336.des}"
+				"{image:entity:cataclysm:ignis width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: false
 			icon: {
 				Count: 1
@@ -816,7 +837,10 @@
 				"54FEDDF33EA76BA5"
 				"3730EDAA88600593"
 			]
-			description: ["{ze.quest.339.des}"]
+			description: [
+				"{ze.quest.339.des}"
+				"{image:entity:minecraft:ender_dragon width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: false
 			icon: "minecraft:dragon_head"
 			id: "6A6419A14365916C"
@@ -849,7 +873,10 @@
 				"54FEDDF33EA76BA5"
 				"285E6213D4CDE877"
 			]
-			description: ["{ze.quest.338.des}"]
+			description: [
+				"{ze.quest.338.des}"
+				"{image:entity:cataclysm:ender_guardian width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: false
 			icon: "cataclysm:gauntlet_of_guard"
 			id: "16D631B7102172E2"
@@ -995,7 +1022,11 @@
 				"25204D3C230F2874"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ze.quest.344.des}"]
+			description: [
+				"{ze.quest.344.des}"
+				"{image:entity:minecraft:zombie width:96 height:96 align:center}"
+				"{image:entity:minecraft:skeleton width:96 height:96 align:center}"
+			]
 			id: "77C4C2F53C146F0F"
 			rewards: [{
 				count: 100
@@ -1148,7 +1179,11 @@
 				"7E4875BBC280DBE6"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ze.quest.347.des}"]
+			description: [
+				"{ze.quest.347.des}"
+				"{image:entity:minecraft:husk width:96 height:96 align:center}"
+				"{image:entity:minecraft:stray width:96 height:96 align:center}"
+			]
 			id: "7F5ADFA22ED5485E"
 			rewards: [{
 				count: 200
@@ -1304,7 +1339,11 @@
 				"3415B1E8B6AC9572"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ze.quest.350.des}"]
+			description: [
+				"{ze.quest.350.des}"
+				"{image:entity:mutantmonsters:mutant_zombie width:96 height:96 align:center}"
+				"{image:entity:mutantmonsters:mutant_skeleton width:96 height:96 align:center}"
+			]
 			id: "7BA7B8332CB3208D"
 			rewards: [{
 				count: 300

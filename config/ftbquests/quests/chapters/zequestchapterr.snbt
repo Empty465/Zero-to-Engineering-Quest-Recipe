@@ -150,7 +150,7 @@
 			tasks: [{
 				amount: 1000L
 				fluid: "farmersrespite:coffee"
-				id: "79FC28BA4F1F97D9"
+				id: "5D2860B8DF0FE5FD"
 				type: "fluid"
 			}]
 			x: -6.0d
@@ -1051,8 +1051,8 @@
 				}
 			]
 			title: "{ze.sell.logStone}"
-			x: -6.5d
-			y: 4.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1089,6 +1089,87 @@
 			title: "{ze.buy.nightvision}"
 			x: -7.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["50936019BF678EC5"]
+			description: ["{ze.sell.milkCoffe.des}"]
+			hide_until_deps_complete: true
+			id: "370E9493FED1AAA5"
+			rewards: [{
+				count: 20
+				id: "366BF48C00543C95"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				amount: 1000L
+				fluid: "farmersrespite:long_coffee"
+				id: "4562338671E97B55"
+				title: "{ze.sell.milkCoffe}"
+				type: "fluid"
+			}]
+			title: "{ze.sell.milkCoffe}"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50936019BF678EC5"]
+			description: ["{ze.sell.hunneyCoffe.des}"]
+			hide_until_deps_complete: true
+			id: "0AA887E907A6CA67"
+			rewards: [{
+				count: 20
+				id: "46BB49E4BCBAD991"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				amount: 1000L
+				fluid: "farmersrespite:strong_coffee"
+				id: "3C260761F9DB2B46"
+				title: "{ze.sell.hunneyCoffe}"
+				type: "fluid"
+			}]
+			title: "{ze.sell.hunneyCoffe}"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0AA887E907A6CA67"
+				"370E9493FED1AAA5"
+			]
+			description: ["{ze.sell.mhCoffe.des}"]
+			hide_until_deps_complete: true
+			id: "7E2D3BDEBAE4DA2D"
+			rewards: [{
+				count: 60
+				id: "75355FB29F54341A"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "farmersrespite:long_coffee"
+					id: "7DBE05573AF80519"
+					title: "{ze.sell.milkCoffe}"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "farmersrespite:strong_coffee"
+					id: "66764AF89F262086"
+					title: "{ze.sell.hunneyCoffe}"
+					type: "fluid"
+				}
+			]
+			title: "{ze.sell.mhCoffe}"
+			x: -6.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.r.subtitle}"]

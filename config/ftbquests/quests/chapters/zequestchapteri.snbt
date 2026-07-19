@@ -1,5 +1,4 @@
 {
-	autofocus_id: "0FDA2CE8D5FEB24E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "zequestchapteri"
@@ -73,7 +72,10 @@
 		}
 		{
 			dependencies: ["3E374D728F4F434D"]
-			description: ["{ze.quest.198.des}"]
+			description: [
+				"{ze.quest.198.des}"
+				"{image:entity:twilightforest:naga width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "ftb_ph:naga_twilight"
 			id: "0E356E96255A4F37"
@@ -130,7 +132,10 @@
 		}
 		{
 			dependencies: ["03B4364B1FE94311"]
-			description: ["{ze.quest.200.des}"]
+			description: [
+				"{ze.quest.200.des}"
+				"{image:entity:twilightforest:lich width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "1EDDACF04B84E1E1"
 			rewards: [{
@@ -270,7 +275,10 @@
 		}
 		{
 			dependencies: ["2DA029E974D0E36E"]
-			description: ["{ze.quest.210.des}"]
+			description: [
+				"{ze.quest.210.des}"
+				"{image:entity:twilightforest:alpha_yeti width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "ftb_ph:alpha_yeti"
 			id: "2A235968366A3139"
@@ -302,7 +310,10 @@
 		}
 		{
 			dependencies: ["1AA420E5A01DA2C1"]
-			description: ["{ze.quest.212.des}"]
+			description: [
+				"{ze.quest.212.des}"
+				"{image:entity:twilightforest:snow_queen width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "3AEC9134581E359A"
 			rewards: [{
@@ -326,7 +337,11 @@
 		}
 		{
 			dependencies: ["7144A24C8E2AFCB3"]
-			description: ["{ze.quest.202.des}"]
+			description: [
+				"{ze.quest.202.des}"
+				"{image:entity:twilightforest:knight_phantom width:96 height:96 align:center}"
+				"{ze.quest.201.des2}"
+			]
 			hide_until_deps_complete: true
 			id: "6F52CC5C7CC18C5A"
 			rewards: [{
@@ -375,7 +390,10 @@
 		}
 		{
 			dependencies: ["541DE3D01AA98C63"]
-			description: ["{ze.quest.204.des}"]
+			description: [
+				"{ze.quest.204.des}"
+				"{image:entity:twilightforest:ur_ghast width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "ftb_ph:ur_ghast"
 			id: "4F65AD4268C029FF"
@@ -407,7 +425,10 @@
 		}
 		{
 			dependencies: ["7D3BB8D749616FBE"]
-			description: ["{ze.quest.206.des}"]
+			description: [
+				"{ze.quest.206.des}"
+				"{image:entity:twilightforest:minoshroom width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "ftb_ph:minoshroom"
 			id: "69F24134347D3A8D"
@@ -465,7 +486,10 @@
 		}
 		{
 			dependencies: ["43868ED7774FBC47"]
-			description: ["{ze.quest.208.des}"]
+			description: [
+				"{ze.quest.208.des}"
+				"{image:entity:twilightforest:hydra width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "ftb_ph:hydra"
 			id: "4F92B289A1F74470"
@@ -526,7 +550,10 @@
 		}
 		{
 			dependencies: ["0A74F852FC6A10D5"]
-			description: ["{ze.quest.214.des}"]
+			description: [
+				"{ze.quest.214.des}"
+				"{image:entity:twilightforest:troll width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "03284EF91907FC08"
 			rewards: [{
@@ -571,7 +598,10 @@
 		}
 		{
 			dependencies: ["3E14DA7086A0D125"]
-			description: ["{ze.quest.216.des}"]
+			description: [
+				"{ze.quest.216.des}"
+				"{image:entity:twilightforest:giant_miner width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "minecraft:player_head"
 			id: "6BE385B65A87FC6C"
@@ -722,6 +752,7 @@
 				"{ze.quest.221.des}"
 				"{image:kubejs:textures/quest/map_quest.png width:160 height:90 align:center}"
 				"{image:kubejs:textures/quest/quest.png width:160 height:90 align:center}"
+				"{image:entity:twilightforest:quest_ram width:96 height:96 align:center}"
 			]
 			icon: "ftb_ph:questing_ram"
 			id: "77006F7BB7486FF2"

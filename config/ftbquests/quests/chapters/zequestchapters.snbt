@@ -446,7 +446,10 @@
 		}
 		{
 			dependencies: ["5ABCF0AEBC84047F"]
-			description: ["{ze.quest.391.des}"]
+			description: [
+				"{ze.quest.391.des}"
+				"{image:entity:mowziesmobs:ferrous_wroughtnaut width:96 height:96 align:center}"
+			]
 			hide_dependency_lines: true
 			id: "693941E94A0CF9EA"
 			rewards: [{
@@ -474,7 +477,10 @@
 		}
 		{
 			dependencies: ["693941E94A0CF9EA"]
-			description: ["{ze.quest.392.des}"]
+			description: [
+				"{ze.quest.392.des}"
+				"{image:entity:mutantmonsters:mutant_zombie width:96 height:96 align:center}"
+			]
 			id: "33787463F2D80D3A"
 			rewards: [{
 				auto: "enabled"
@@ -507,7 +513,10 @@
 		}
 		{
 			dependencies: ["33787463F2D80D3A"]
-			description: ["{ze.quest.393.des}"]
+			description: [
+				"{ze.quest.393.des}"
+				"{image:entity:twilightforest:lich width:96 height:96 align:center}"
+			]
 			id: "18236CAF789335A7"
 			rewards: [{
 				auto: "enabled"
@@ -534,7 +543,10 @@
 		}
 		{
 			dependencies: ["18236CAF789335A7"]
-			description: ["{ze.quest.394.des}"]
+			description: [
+				"{ze.quest.394.des}"
+				"{image:entity:minecraft:warden width:96 height:96 align:center}"
+			]
 			id: "536747DEA2C41F78"
 			rewards: [{
 				auto: "enabled"
@@ -561,7 +573,10 @@
 		}
 		{
 			dependencies: ["536747DEA2C41F78"]
-			description: ["{ze.quest.395.des}"]
+			description: [
+				"{ze.quest.395.des}"
+				"{image:entity:cataclysm:ender_guardian width:96 height:96 align:center}"
+			]
 			id: "4B246EEDE19EEB19"
 			rewards: [{
 				auto: "enabled"
@@ -588,7 +603,10 @@
 		}
 		{
 			dependencies: ["4B246EEDE19EEB19"]
-			description: ["{ze.quest.396.des}"]
+			description: [
+				"{ze.quest.396.des}"
+				"{image:entity:cataclysm:maledictus width:96 height:96 align:center}"
+			]
 			id: "79E1395F668D7FE7"
 			rewards: [{
 				auto: "enabled"
@@ -615,7 +633,10 @@
 		}
 		{
 			dependencies: ["79E1395F668D7FE7"]
-			description: ["{ze.quest.397.des}"]
+			description: [
+				"{ze.quest.397.des}"
+				"{image:entity:cataclysm:ignis width:96 height:96 align:center}"
+			]
 			id: "462345D90579516C"
 			rewards: [{
 				auto: "enabled"

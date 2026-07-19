@@ -475,15 +475,21 @@
 			subtitle: "{ze.quest.107.subtitle}"
 			tasks: [
 				{
-					count: 24L
+					count: 20L
 					id: "60C9C78669D9B091"
-					item: { Count: 24, id: "mekanism:dynamic_tank" }
+					item: "mekanism:dynamic_tank"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "463EA84982D08AFD"
 					item: { Count: 2, id: "mekanism:dynamic_valve" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "695601290228DFA7"
+					item: { Count: 4, id: "mekanism:structural_glass" }
 					type: "item"
 				}
 			]
@@ -512,9 +518,9 @@
 			subtitle: "{ze.quest.112.subtitle}"
 			tasks: [
 				{
-					count: 32L
+					count: 24L
 					id: "1DF68507141AA8AD"
-					item: { Count: 32, id: "mekanism:induction_casing" }
+					item: "mekanism:induction_casing"
 					type: "item"
 				}
 				{
@@ -531,6 +537,12 @@
 				{
 					id: "5D34754ADF426EF9"
 					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "782C138398FAB39D"
+					item: { Count: 8, id: "mekanism:structural_glass" }
 					type: "item"
 				}
 			]

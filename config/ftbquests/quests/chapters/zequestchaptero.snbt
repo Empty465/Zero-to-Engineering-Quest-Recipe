@@ -63,7 +63,10 @@
 				"60179D2721B3E085"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ze.quest.261.des}"]
+			description: [
+				"{ze.quest.261.des}"
+				"{image:entity:mowziesmobs:ferrous_wroughtnaut width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "615051BDDB8D41E3"
 			rewards: [
@@ -95,7 +98,10 @@
 		}
 		{
 			dependencies: ["4FA67668D50F5FA9"]
-			description: ["{ze.quest.264.des}"]
+			description: [
+				"{ze.quest.264.des}"
+				"{image:entity:mowziesmobs:umvuthi width:96 height:96 align:center}"
+			]
 			id: "59DED01A57859BFD"
 			rewards: [
 				{
@@ -128,7 +134,7 @@
 			dependencies: ["2C5140F243CF63D9"]
 			description: [
 				"{ze.quest.265.des}"
-				"{image:kubejs:textures/quest/frostmow.png width:160 height:90 align:center}"
+				"{image:entity:mowziesmobs:frostmaw width:96 height:96 align:center}"
 			]
 			hide_until_deps_complete: true
 			id: "0B65EE89A9E9F163"
@@ -211,7 +217,10 @@
 		}
 		{
 			dependencies: ["1B6D4B902BF8FD94"]
-			description: ["{ze.quest.268.des}"]
+			description: [
+				"{ze.quest.268.des}"
+				"{image:entity:mowziesmobs:sculptor width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "38414304A3D3892F"
 			rewards: [
@@ -246,7 +255,10 @@
 		}
 		{
 			dependencies: ["1AFD53827C9D2DD4"]
-			description: ["{ze.quest.269.des}"]
+			description: [
+				"{ze.quest.269.des}"
+				"{image:entity:mowziesmobs:sculptor width:96 height:96 align:center}"
+			]
 			id: "7F38A85B7927515C"
 			rewards: [
 				{
@@ -283,7 +295,10 @@
 		}
 		{
 			dependencies: ["1AFD53827C9D2DD4"]
-			description: ["{ze.quest.267.des}"]
+			description: [
+				"{ze.quest.267.des}"
+				"{image:entity:mowziesmobs:bluff width:96 height:96 align:center}"
+			]
 			id: "1B6D4B902BF8FD94"
 			rewards: [{
 				id: "01F69139D5FA75BC"
@@ -305,7 +320,10 @@
 		}
 		{
 			dependencies: ["1AFD53827C9D2DD4"]
-			description: ["{ze.quest.270.des}"]
+			description: [
+				"{ze.quest.270.des}"
+				"{image:entity:minecraft:zombie width:96 height:96 align:center}"
+			]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:geomancer_beads"
@@ -438,7 +456,10 @@
 				"37BE16E238C0988F"
 				"11AB1AC3AF2E8F85"
 			]
-			description: ["{ze.quest.272.des}"]
+			description: [
+				"{ze.quest.272.des}"
+				"{image:entity:cataclysm:the_harbinger width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "minecraft:nether_star"
 			id: "1F56D0A8C86A5B8E"
@@ -542,7 +563,11 @@
 		}
 		{
 			dependencies: ["27455FE751D2B8F9"]
-			description: ["{ze.quest.276.des}"]
+			description: [
+				"{ze.quest.276.des}"
+				"{image:entity:cataclysm:wadjet width:96 height:96 align:center}"
+				"{image:entity:cataclysm:kobolediator width:96 height:96 align:center}"
+			]
 			id: "2D6BEA3A26D39D26"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -581,7 +606,10 @@
 		}
 		{
 			dependencies: ["27455FE751D2B8F9"]
-			description: ["{ze.quest.277.des}"]
+			description: [
+				"{ze.quest.277.des}"
+				"{image:entity:cataclysm:ancient_remnant width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "1F3C056984250889"
@@ -806,7 +834,10 @@
 		}
 		{
 			dependencies: ["05CF495B733F7837"]
-			description: ["{ze.quest.283.des}"]
+			description: [
+				"{ze.quest.283.des}"
+				"{image:entity:cataclysm:the_leviathan width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "7730C8148CCADE72"
@@ -846,7 +877,10 @@
 		}
 		{
 			dependencies: ["5D8508C5961F754A"]
-			description: ["{ze.quest.280.des}"]
+			description: [
+				"{ze.quest.280.des}"
+				"{image:entity:cataclysm:deepling_priest width:96 height:96 align:center}"
+			]
 			id: "25EAB41145F6AA0F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -875,7 +909,10 @@
 		}
 		{
 			dependencies: ["5D8508C5961F754A"]
-			description: ["{ze.quest.281.des}"]
+			description: [
+				"{ze.quest.281.des}"
+				"{image:entity:cataclysm:deepling_warlock width:96 height:96 align:center}"
+			]
 			id: "69103404A19AC50D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -904,7 +941,10 @@
 		}
 		{
 			dependencies: ["5D8508C5961F754A"]
-			description: ["{ze.quest.282.des}"]
+			description: [
+				"{ze.quest.282.des}"
+				"{image:entity:cataclysm:coralssus width:96 height:96 align:center}"
+			]
 			id: "05CF495B733F7837"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -927,7 +967,10 @@
 		}
 		{
 			dependencies: ["7730C8148CCADE72"]
-			description: ["{ze.quest.286.des}"]
+			description: [
+				"{ze.quest.286.des}"
+				"{image:entity:cataclysm:the_baby_leviathan width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "cataclysm:abyssal_egg"
 			id: "228C2A0950C65930"
@@ -1001,7 +1044,10 @@
 		}
 		{
 			dependencies: ["2C5140F243CF63D9"]
-			description: ["{ze.quest.284.des}"]
+			description: [
+				"{ze.quest.284.des}"
+				"{image:entity:cataclysm:amethyst_crab width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "73A30B43C03DA044"
 			rewards: [{
@@ -1075,7 +1121,10 @@
 		}
 		{
 			dependencies: ["28D2D407DD6FD272"]
-			description: ["{ze.quest.289.des}"]
+			description: [
+				"{ze.quest.289.des}"
+				"{image:entity:cataclysm:scylla width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "7336DBFD5A0D4510"
 			rewards: [
@@ -1107,7 +1156,10 @@
 		}
 		{
 			dependencies: ["1A9AE0BC07EC0079"]
-			description: ["{ze.quest.290.des}"]
+			description: [
+				"{ze.quest.290.des}"
+				"{image:entity:cataclysm:aptrgangr width:96 height:96 align:center}"
+			]
 			id: "4F528AEB4EECA88F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1130,7 +1182,10 @@
 		}
 		{
 			dependencies: ["1A9AE0BC07EC0079"]
-			description: ["{ze.quest.291.des}"]
+			description: [
+				"{ze.quest.291.des}"
+				"{image:entity:cataclysm:maledictus width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "cataclysm:the_annihilator"
 			id: "6374A3C1736479C3"

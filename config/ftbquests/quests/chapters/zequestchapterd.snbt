@@ -1142,6 +1142,27 @@
 			x: 1.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["449E7A327A02560C"]
+			description: ["{ze.quest.419.des}"]
+			hide_until_deps_complete: true
+			id: "0821582E66F09025"
+			rewards: [{
+				id: "18628451E114D88C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{ze.quest.419.subtitle}"
+			tasks: [{
+				id: "07A2E635DC4B9FE1"
+				item: "immersiveengineering:metal_barrel"
+				type: "item"
+			}]
+			title: "{ze.quest.419.title}"
+			x: 10.5d
+			y: -5.5d
+		}
 	]
 	subtitle: ["{ze.quest.chatper.d.subtitle}"]
 	title: "{ze.quest.chapter.d}"

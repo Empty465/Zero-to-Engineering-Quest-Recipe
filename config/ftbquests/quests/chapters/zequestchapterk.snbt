@@ -88,7 +88,10 @@
 		}
 		{
 			dependencies: ["410F82C24000358B"]
-			description: ["{ze.quest.257.des}"]
+			description: [
+				"{ze.quest.257.des}"
+				"{image:entity:cataclysm:netherite_monstrosity width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "0A1210CF7629BEB3"
 			rewards: [
@@ -126,7 +129,10 @@
 		}
 		{
 			dependencies: ["2AEA68DAC3E5B274"]
-			description: ["{ze.quest.254.des}"]
+			description: [
+				"{ze.quest.254.des}"
+				"{image:entity:cataclysm:ignited_revenant width:96 height:96 align:center}"
+			]
 			id: "5C77D75C592B0777"
 			rewards: [{
 				id: "3F18E6FD07DB7BB7"
@@ -148,7 +154,10 @@
 		}
 		{
 			dependencies: ["2AEA68DAC3E5B274"]
-			description: ["{ze.quest.255.des}"]
+			description: [
+				"{ze.quest.255.des}"
+				"{image:entity:cataclysm:ignis width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -200,7 +209,10 @@
 		}
 		{
 			dependencies: ["0A1210CF7629BEB3"]
-			description: ["{ze.quest.258.des}"]
+			description: [
+				"{ze.quest.258.des}"
+				"{image:entity:cataclysm:netherite_ministrosity width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "cataclysm:netherite_effigy"
 			id: "0E7504D9B440B533"
@@ -238,7 +250,10 @@
 		}
 		{
 			dependencies: ["3475118BC4F80ECB"]
-			description: ["{ze.quest.274.des}"]
+			description: [
+				"{ze.quest.274.des}"
+				"{image:entity:minecraft:wither width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "ftb_ph:wither"
 			id: "11AB1AC3AF2E8F85"
