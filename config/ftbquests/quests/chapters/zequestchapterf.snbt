@@ -13,7 +13,11 @@
 				"515D40F1C7124447"
 				"2BEBC6A267A439C7"
 			]
-			description: ["{ze.quest.82.des}"]
+			description: [
+				"{ze.quest.82.des}"
+				""
+				"{ze.quest.82.des2}"
+			]
 			id: "42BCD7FF8DD550F2"
 			rewards: [
 				{

@@ -1717,7 +1717,7 @@
 				type: "item"
 			}]
 			title: "{ze.quest.369.title}"
-			x: 13.5d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -1741,8 +1741,8 @@
 				type: "fluid"
 			}]
 			title: "{ze.quest.370.title}"
-			x: 14.5d
-			y: 0.0d
+			x: 15.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1752,6 +1752,7 @@
 				"7BA7B8332CB3208D"
 				"23A5CAEA64FB9173"
 				"2A383480CBA5FA55"
+				"3813E51AE754D30F"
 			]
 			description: ["{ze.quest.383.des}"]
 			icon: "kubejs:transcendent_engineering_part"
@@ -1772,6 +1773,30 @@
 			title: "{ze.quest.383.title}"
 			x: 18.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E936FFB8F8C28BB"
+				"6391C89B73ED7669"
+			]
+			description: ["{ze.quest.420.des}"]
+			id: "3813E51AE754D30F"
+			rewards: [{
+				count: 500
+				id: "0947AD8CF90BA9D6"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.420.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "79137AC1326E54C4"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			title: "{ze.quest.420.title}"
+			x: 15.5d
+			y: 0.5d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.p.subtitle}"]
