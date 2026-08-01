@@ -245,7 +245,7 @@
 			}]
 			title: "{ze.quest.331.title}"
 			x: 8.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3D3C3664560C5D56"]
@@ -266,7 +266,7 @@
 			}]
 			title: "{ze.quest.332.title}"
 			x: 8.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3D3C3664560C5D56"]
@@ -377,7 +377,7 @@
 			]
 			title: "{ze.quest.317.title}"
 			x: 9.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: false
@@ -400,7 +400,7 @@
 			}]
 			title: "{ze.quest.318.title}"
 			x: 11.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: false
@@ -423,7 +423,7 @@
 			}]
 			title: "{ze.quest.319.title}"
 			x: 11.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: false
@@ -446,7 +446,7 @@
 			}]
 			title: "{ze.quest.320.title}"
 			x: 11.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: false
@@ -469,7 +469,7 @@
 			}]
 			title: "{ze.quest.324.title}"
 			x: 12.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: false
@@ -492,7 +492,7 @@
 			}]
 			title: "{ze.quest.321.title}"
 			x: 12.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: false
@@ -515,7 +515,7 @@
 			}]
 			title: "{ze.quest.322.title}"
 			x: 13.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: false
@@ -538,7 +538,7 @@
 			}]
 			title: "{ze.quest.323.title}"
 			x: 12.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: false
@@ -572,7 +572,7 @@
 			}]
 			title: "{ze.quest.312.title}"
 			x: 14.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: false
@@ -606,7 +606,7 @@
 			}]
 			title: "{ze.quest.313.title}"
 			x: 15.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: false
@@ -640,7 +640,7 @@
 			}]
 			title: "{ze.quest.314.title}"
 			x: 14.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: false
@@ -674,7 +674,7 @@
 			}]
 			title: "{ze.quest.315.title}"
 			x: 15.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -708,8 +708,8 @@
 				}
 			]
 			title: "{ze.quest.333.title}"
-			x: 10.0d
-			y: -3.0d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -734,8 +734,8 @@
 				type: "item"
 			}]
 			title: "{ze.quest.337.title}"
-			x: 12.5d
-			y: -3.0d
+			x: 13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -761,7 +761,7 @@
 				type: "checkmark"
 			}]
 			title: "{ze.quest.334.title}"
-			x: 9.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -795,7 +795,7 @@
 				type: "checkmark"
 			}]
 			title: "{ze.quest.335.title}"
-			x: 10.0d
+			x: 11.5d
 			y: -2.0d
 		}
 		{
@@ -829,8 +829,8 @@
 				type: "checkmark"
 			}]
 			title: "{ze.quest.336.title}"
-			x: 11.0d
-			y: -2.0d
+			x: 10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -865,13 +865,13 @@
 				type: "checkmark"
 			}]
 			title: "{ze.quest.339.title}"
-			x: 13.5d
-			y: -3.0d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
-				"54FEDDF33EA76BA5"
 				"285E6213D4CDE877"
+				"6A6419A14365916C"
 			]
 			description: [
 				"{ze.quest.338.des}"
@@ -893,8 +893,8 @@
 				type: "checkmark"
 			}]
 			title: "{ze.quest.338.title}"
-			x: 12.5d
-			y: -2.0d
+			x: 14.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -918,8 +918,8 @@
 				type: "checkmark"
 			}]
 			title: "{ze.quest.340.title}"
-			x: 15.5d
-			y: -3.0d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["09DF2D6DDD4A0E48"]
@@ -1668,7 +1668,7 @@
 				}
 			]
 			title: "{ze.quest.367.title}"
-			x: 11.0d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -1692,7 +1692,7 @@
 				type: "fluid"
 			}]
 			title: "{ze.quest.368.title}"
-			x: 12.0d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -1750,9 +1750,8 @@
 				"7C51CD1C2B43E5CB"
 				"45E09E4A99187534"
 				"7BA7B8332CB3208D"
-				"23A5CAEA64FB9173"
-				"2A383480CBA5FA55"
 				"3813E51AE754D30F"
+				"41C068DF97BF1BEA"
 			]
 			description: ["{ze.quest.383.des}"]
 			icon: "kubejs:transcendent_engineering_part"
@@ -1771,7 +1770,7 @@
 				type: "checkmark"
 			}]
 			title: "{ze.quest.383.title}"
-			x: 18.5d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
@@ -1797,6 +1796,65 @@
 			title: "{ze.quest.420.title}"
 			x: 15.5d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5D0B1ECF92B4EF09"
+				"6A6419A14365916C"
+			]
+			description: [
+				"{ze.quest.421.des}"
+				"{image:entity:alexsmobs:crimson_mosquito width:48 height:48 align:center}"
+				"{image:entity:alexsmobs:enderiophage width:96 height:96 align:center}"
+			]
+			id: "7403E9E6E9BE8968"
+			rewards: [{
+				count: 50
+				id: "079677725DDFDE4D"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.421.subtitle}"
+			tasks: [{
+				id: "3020060E88B00F8F"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			title: "{ze.quest.421.title}"
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7403E9E6E9BE8968"]
+			description: [
+				"{ze.quest.422.des}"
+				"{image:entity:alexsmobs:void_worm width:96 height:96 align:center}"
+			]
+			icon: "alexsmobs:void_worm_effigy"
+			id: "41C068DF97BF1BEA"
+			rewards: [{
+				count: 500
+				id: "3E648602B0B50C1E"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.422.subtitle}"
+			tasks: [
+				{
+					id: "1F23E36CB8911B2E"
+					item: "alexsmobs:void_worm_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "644F1339572FE78C"
+					item: { Count: 2, id: "alexsmobs:void_worm_mandible" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.422.title}"
+			x: 18.0d
+			y: -5.0d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.p.subtitle}"]
