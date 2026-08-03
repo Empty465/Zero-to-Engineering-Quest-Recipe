@@ -262,7 +262,7 @@
 			]
 			title: "{ze.quest.191.title}"
 			x: 1.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2BDF0FEEA1FFD6F0"]
@@ -361,6 +361,30 @@
 			title: "{ze.quest.414.title}"
 			x: 0.5d
 			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3B7EE0060B98114D"
+				"68307B3836A30B21"
+			]
+			description: ["{ze.quest.424.des}"]
+			hide_until_deps_complete: true
+			id: "50B0DB9737EE9A3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A01A90F0896285C"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.424.subtitle}"
+			tasks: [{
+				id: "73507908526A65DC"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			title: "{ze.quest.424.title}"
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.j.subtitle}"]

@@ -215,6 +215,7 @@
 				"2FFF1B3F40780EF1"
 				"77B1B450AEC86454"
 				"53C6B178609601C0"
+				"68307B3836A30B21"
 			]
 			description: ["{ze.quest.405.des}"]
 			icon: "kubejs:transcendent_engineering_part"
@@ -243,7 +244,7 @@
 			}]
 			title: "{ze.quest.405.title}"
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -689,6 +690,57 @@
 			title: "{ze.quest.412.title}"
 			x: -3.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["3ECCB7C8080B0136"]
+			description: [
+				"{ze.quest.423.des}"
+				"{@pagebreak}"
+				"{ze.quest.423.des2}"
+				""
+				""
+				""
+				""
+				""
+				"{image:entity:alexsmobs:farseer width:96 height:96 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "68307B3836A30B21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "176D886A45775781"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.423.subtitle}"
+			tasks: [
+				{
+					id: "1A64EE539F3E641B"
+					item: {
+						Count: 1
+						id: "alexsmobs:shattered_dimensional_carver"
+						tag: {
+							BLOCKX: 0.0d
+							BLOCKY: 0.0d
+							BLOCKZ: 0.0d
+							Damage: 0
+							HASBLOCK: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "alexsmobs:farseer"
+					icon: "ftb_ph:farseer"
+					id: "55B25A4E22A5D22E"
+					title: "{ze.quest.task.kill.farseer}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.423.title}"
+			x: 3.0d
+			y: 2.5d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.t.subtitle}"]
