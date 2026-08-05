@@ -531,7 +531,7 @@
 			}]
 			title: "{ze.buy.plastic}"
 			x: -9.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["28FC603EDE81801C"]
@@ -551,8 +551,8 @@
 				type: "item"
 			}]
 			title: "{ze.buy.tea_seed}"
-			x: -7.0d
-			y: 0.0d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6EC89312865A6D49"]
@@ -572,8 +572,8 @@
 				type: "item"
 			}]
 			title: "{ze.buy.coff_seed}"
-			x: -6.0d
-			y: 0.0d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -596,8 +596,8 @@
 				type: "item"
 			}]
 			title: "{ze.buy.glu_inject}"
-			x: -6.0d
-			y: -1.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3415B1E8B6AC9572"]
@@ -1087,8 +1087,8 @@
 				type: "item"
 			}]
 			title: "{ze.buy.nightvision}"
-			x: -7.0d
-			y: -1.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["50936019BF678EC5"]
@@ -1176,16 +1176,19 @@
 			icon: "create:precision_mechanism"
 			id: "2EB79F8357DCBD39"
 			rewards: [{
+				count: 5
 				id: "4BF9815FAEFE8ECD"
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
 			tasks: [{
+				count: 50L
 				id: "1B16E03EC2541DE2"
 				item: "kubejs:money"
 				type: "item"
 			}]
+			title: "{ze.buy.PM}"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -1194,16 +1197,19 @@
 			icon: "create:electron_tube"
 			id: "67EFF3030A5098E1"
 			rewards: [{
+				count: 10
 				id: "2D2F408A56BD4638"
 				item: "create:electron_tube"
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
 			tasks: [{
+				count: 50L
 				id: "0ABF1BC4E12E9DE3"
 				item: "kubejs:money"
 				type: "item"
 			}]
+			title: "{ze.buy.ET}"
 			x: -8.5d
 			y: -1.5d
 		}
@@ -1212,54 +1218,147 @@
 			icon: "immersiveengineering:steel_scaffolding_standard"
 			id: "11DB4CC64B12C151"
 			rewards: [{
+				count: 30
 				id: "266F7F0BEAEF785C"
 				item: "immersiveengineering:steel_scaffolding_standard"
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
 			tasks: [{
+				count: 10L
 				id: "67C2390F5405FF1B"
 				item: "kubejs:money"
 				type: "item"
 			}]
+			title: "{ze.buy.SS}"
 			x: -10.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0392A1A134AEE140"]
-			icon: "immersiveengineering:light_engineering"
+			icon: "immersiveengineering:component_iron"
 			id: "25BC215C1D12DE4D"
 			rewards: [{
-				id: "4F99AFE761559B15"
-				item: "immersiveengineering:light_engineering"
+				count: 30
+				id: "057F8CDD9CBC46E6"
+				item: "immersiveengineering:component_iron"
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
 			tasks: [{
+				count: 50L
 				id: "3E15C1676E78AB57"
 				item: "kubejs:money"
 				type: "item"
 			}]
+			title: "{ze.buy.IMC}"
 			x: -9.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0392A1A134AEE140"]
-			icon: "immersiveengineering:heavy_engineering"
+			icon: "immersiveengineering:component_steel"
 			id: "677469FA974454F9"
 			rewards: [{
+				count: 20
 				id: "7D9DAC54494600BB"
-				item: "immersiveengineering:heavy_engineering"
+				item: "immersiveengineering:component_steel"
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
 			tasks: [{
+				count: 50L
 				id: "3A4C92C3C66BA33E"
 				item: "kubejs:money"
 				type: "item"
 			}]
+			title: "{ze.buy.SMC}"
 			x: -8.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			icon: "minecraft:raw_iron"
+			id: "497B2E7052F4325A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C6D204D623DEEB7"
+				table_id: 3591482205710434466L
+				type: "random"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 15L
+				id: "08722FD2A5143EA4"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.c_rawOre} ({ze.buy.random})"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			icon: "minecraft:raw_iron"
+			id: "10B954C55C7C8A68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "530025BF459AC1D9"
+				table_id: 3591482205710434466L
+				type: "choice"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 50L
+				id: "645E9C65F27785A8"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.c_rawOre} ({ze.buy.select})"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			icon: "minecraft:diamond"
+			id: "7B1A93A5388078E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41AFAB2567521BD4"
+				table_id: 272983700923047020L
+				type: "random"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 15L
+				id: "7E363AB973EC2A6F"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.r_rawOre} ({ze.buy.random})"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			icon: "minecraft:diamond"
+			id: "50B04B81E36763B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27D7FB3779E410BC"
+				table_id: 272983700923047020L
+				type: "choice"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 50L
+				id: "19392CABA3DADEA0"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.r_rawOre} ({ze.buy.select})"
+			x: -5.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.r.subtitle}"]

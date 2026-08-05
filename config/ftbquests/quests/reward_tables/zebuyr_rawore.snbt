@@ -1,0 +1,12 @@
+{
+	id: "03C9D53ACAFD5C6C"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 10, item: "minecraft:diamond" }
+		{ count: 10, item: "minecraft:emerald" }
+		{ item: "betterleveling:raw_debris" }
+		{ count: 24, item: "immersiveengineering:raw_nickel" }
+	]
+	title: "{ze.buy.r_rawOre}"
+}

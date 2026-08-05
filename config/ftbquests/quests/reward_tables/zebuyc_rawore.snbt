@@ -1,0 +1,21 @@
+{
+	id: "31D78209A081C0A2"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 64, item: "minecraft:raw_iron" }
+		{ count: 64, item: "minecraft:raw_copper" }
+		{ count: 64, item: "minecraft:raw_gold" }
+		{ count: 64, item: "mekanism:raw_osmium" }
+		{ count: 64, item: "mekanism:raw_tin" }
+		{ count: 64, item: "mekanism:raw_lead" }
+		{ count: 64, item: "mekanism:raw_uranium" }
+		{ count: 64, item: "immersiveengineering:raw_aluminum" }
+		{ count: 64, item: "immersiveengineering:raw_silver" }
+		{ count: 64, item: "minecraft:lapis_lazuli" }
+		{ count: 64, item: "minecraft:redstone" }
+		{ count: 64, item: "minecraft:quartz" }
+		{ count: 40, item: "mekanism:fluorite_gem" }
+	]
+	title: "{ze.buy.c_rawOre}"
+}

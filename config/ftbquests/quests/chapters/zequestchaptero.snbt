@@ -320,10 +320,7 @@
 		}
 		{
 			dependencies: ["1AFD53827C9D2DD4"]
-			description: [
-				"{ze.quest.270.des}"
-				"{image:entity:minecraft:zombie width:96 height:96 align:center}"
-			]
+			description: ["{ze.quest.270.des}"]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:geomancer_beads"
@@ -649,7 +646,10 @@
 		}
 		{
 			dependencies: ["1F3C056984250889"]
-			description: ["{ze.quest.278.des}"]
+			description: [
+				"{ze.quest.278.des}"
+				"{image:entity:cataclysm:modern_remnant width:96 height:96 align:center}"
+			]
 			hide_until_deps_complete: true
 			icon: "cataclysm:remnant_skull"
 			id: "19224CF9132163AD"

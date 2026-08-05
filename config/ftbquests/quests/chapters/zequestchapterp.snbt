@@ -1804,6 +1804,7 @@
 			]
 			description: [
 				"{ze.quest.421.des}"
+				"{image:entity:alexsmobs:fly width:48 height:48 align:center}"
 				"{image:entity:alexsmobs:crimson_mosquito width:48 height:48 align:center}"
 				"{image:entity:alexsmobs:enderiophage width:96 height:96 align:center}"
 			]
