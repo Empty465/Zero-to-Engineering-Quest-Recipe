@@ -1171,6 +1171,96 @@
 			x: -6.0d
 			y: 5.5d
 		}
+		{
+			dependencies: ["2D709B7368A38472"]
+			icon: "create:precision_mechanism"
+			id: "2EB79F8357DCBD39"
+			rewards: [{
+				id: "4BF9815FAEFE8ECD"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				id: "1B16E03EC2541DE2"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D709B7368A38472"]
+			icon: "create:electron_tube"
+			id: "67EFF3030A5098E1"
+			rewards: [{
+				id: "2D2F408A56BD4638"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				id: "0ABF1BC4E12E9DE3"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0392A1A134AEE140"]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "11DB4CC64B12C151"
+			rewards: [{
+				id: "266F7F0BEAEF785C"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				id: "67C2390F5405FF1B"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0392A1A134AEE140"]
+			icon: "immersiveengineering:light_engineering"
+			id: "25BC215C1D12DE4D"
+			rewards: [{
+				id: "4F99AFE761559B15"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				id: "3E15C1676E78AB57"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0392A1A134AEE140"]
+			icon: "immersiveengineering:heavy_engineering"
+			id: "677469FA974454F9"
+			rewards: [{
+				id: "7D9DAC54494600BB"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				id: "3A4C92C3C66BA33E"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
 	]
 	subtitle: ["{ze.quest.chapter.r.subtitle}"]
 	title: "{ze.quest.chapter.r}"

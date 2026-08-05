@@ -1856,6 +1856,40 @@
 			x: 18.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["6A6419A14365916C"]
+			description: [
+				"{ze.quest.425.des}"
+				"{image:entity:alexsmobs:mimicube width:96 height:96 align:center}"
+			]
+			id: "3DC24E81506EDBF6"
+			rewards: [{
+				count: 50
+				id: "5DA21F9554E89659"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.425.subtitle}"
+			tasks: [
+				{
+					entity: "alexsmobs:mimicube"
+					icon: "ftb_ph:mimicube"
+					id: "0AC56FFF26F831B2"
+					title: "{ze.quest.task.kill.mimicube}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 8L
+					id: "7657B1767621D5BE"
+					item: { Count: 8, id: "alexsmobs:mimicream" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.425.title}"
+			x: 15.0d
+			y: -3.0d
+		}
 	]
 	subtitle: ["{ze.quest.chapter.p.subtitle}"]
 	title: "{ze.quest.chapter.p}"
