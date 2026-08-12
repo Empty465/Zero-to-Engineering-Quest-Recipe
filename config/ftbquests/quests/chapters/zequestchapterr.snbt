@@ -804,7 +804,16 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["72C1641B2188843F"]
+			dependencies: [
+				"0105D37725E29FE0"
+				"229544A3830DD8A2"
+				"165BF6258EFF21CF"
+				"211D28B012763325"
+				"2E888FCD775E1F74"
+				"73356A6DD81BE60C"
+				"384EA0BEAC6EE1D1"
+			]
+			dependency_requirement: "one_completed"
 			description: ["{ze.buy.slotM.des}"]
 			hide_dependency_lines: true
 			icon: "slotmachinemod:server_slot_machine"
