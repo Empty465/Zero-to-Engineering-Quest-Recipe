@@ -1160,7 +1160,11 @@
 		}
 		{
 			dependencies: ["5BAF6C2AB855117A"]
-			description: ["{ze.quest.300.des}"]
+			description: [
+				"{ze.quest.300.des}"
+				""
+				"{ze.quest.300.des2}"
+			]
 			icon: {
 				Count: 1
 				id: "mekanism:mekasuit_helmet"
