@@ -211,13 +211,14 @@
 					type: "item"
 				}
 				{
-					count: 50L
+					consume_items: true
+					count: 100L
 					id: "0EA73D5C8EC33109"
 					item: "mekanism:ultimate_induction_cell"
 					type: "item"
 				}
 				{
-					count: 50L
+					count: 100L
 					id: "3D8C15E39ACF4B34"
 					item: "mekanism:ultimate_induction_provider"
 					type: "item"
@@ -245,31 +246,31 @@
 			subtitle: "{ze.quest.386.subtitle}"
 			tasks: [
 				{
-					count: 5L
+					count: 10L
 					id: "0F0803F47E02BCA2"
 					item: "megacells:item_storage_cell_256m"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 10L
 					id: "776C1CBBC240CB06"
 					item: "megacells:fluid_storage_cell_256m"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 10L
 					id: "2E99A981750F378C"
 					item: "megacells:chemical_storage_cell_256m"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 10L
 					id: "32CC3E38AE5DA0E1"
 					item: "megacells:radioactive_chemical_cell"
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 4L
 					id: "0E20F60995A0B25F"
 					item: "ae2:drive"
 					type: "item"

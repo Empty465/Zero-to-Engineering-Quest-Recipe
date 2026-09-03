@@ -1891,6 +1891,188 @@
 			x: 15.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["7BFD7BBFE3748698"]
+			description: ["{ze.quest.426.des}"]
+			hide_until_deps_complete: true
+			icon: "immersiveengineering:metal_press"
+			id: "14BEFBE2D0EE71B8"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				id: "5F1F9E1EC5052260"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.426.title}"
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "45D3BBEFF5887484"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 369500L
+				id: "41E9E79D4C6BD5B8"
+				item: { Count: 369500, id: "create:track" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "242FC355CCFEF29B"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1500L
+				id: "20F91B4D10D337AC"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "48365621E767B9C2"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				amount: 145000000L
+				fluid: "create:chocolate"
+				id: "1D34540F9764E094"
+				type: "fluid"
+			}]
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "309386B4102F3769"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				amount: 402604032L
+				fluid: "minecraft:lava"
+				id: "0ED07F84B69D2996"
+				type: "fluid"
+			}]
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "045A26E2690B3A04"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10581L
+				id: "3C6A36EE5180632F"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "12EEA971F369C7E9"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1500L
+				id: "4A752A72746FB897"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "1C32039CA76D0191"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				amount: 53000000L
+				fluid: "immersivepetroleum:diesel"
+				id: "1538D75413118D93"
+				type: "fluid"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "31F199C54A2435B8"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 3000L
+				id: "6ABBC493D25F76DC"
+				item: { Count: 5000, id: "immersiveengineering:component_electronic_adv" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "5B9B66D8D9509E7D"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10000000L
+				id: "0827635BAC82AA0A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						Damage: 0
+						GunCurrentAmmoCount: 17
+						GunFireMode: "SEMI"
+						GunId: "tacz:glock_17"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "4B16148B5E953947"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				count: 10000000L
+				id: "695B816565B5DBF2"
+				item: {
+					Count: 100000
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						Damage: 0
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "tacz:ak47"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 2.0d
+		}
 	]
 	subtitle: ["{ze.quest.chapter.p.subtitle}"]
 	title: "{ze.quest.chapter.p}"
