@@ -134,7 +134,7 @@
 			]
 			title: "{ze.quest.358.title}"
 			x: 14.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["52A824D990D3E08A"]
@@ -1588,7 +1588,7 @@
 			}]
 			title: "{ze.quest.359.title}"
 			x: 15.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1752,6 +1752,7 @@
 				"7BA7B8332CB3208D"
 				"3813E51AE754D30F"
 				"41C068DF97BF1BEA"
+				"7E6E78CC6587E500"
 			]
 			description: ["{ze.quest.383.des}"]
 			icon: "kubejs:transcendent_engineering_part"
@@ -2031,17 +2032,27 @@
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				consume_items: true
-				count: 10000000L
-				id: "0827635BAC82AA0A"
+				count: 10581L
+				id: "60C45E87EC6D916C"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "4B16148B5E953947"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				count: 55645L
+				id: "135251781A5E03D3"
 				item: {
-					Count: 1
-					id: "tacz:modern_kinetic_gun"
+					Count: 55645
+					id: "tacz:ammo"
 					tag: {
-						Damage: 0
-						GunCurrentAmmoCount: 17
-						GunFireMode: "SEMI"
-						GunId: "tacz:glock_17"
-						HasBulletInBarrel: 1b
+						AmmoId: "tacz:556x45"
 					}
 				}
 				type: "item"
@@ -2050,28 +2061,97 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["14BEFBE2D0EE71B8"]
+			dependencies: ["6EC89312865A6D49"]
+			description: ["{ze.quest.427.des}"]
 			hide_until_deps_complete: true
-			id: "4B16148B5E953947"
-			subtitle: "{ze.quest.426.subtitle}"
-			tasks: [{
-				count: 10000000L
-				id: "695B816565B5DBF2"
-				item: {
-					Count: 100000
-					id: "tacz:modern_kinetic_gun"
-					tag: {
-						Damage: 0
-						GunCurrentAmmoCount: 30
-						GunFireMode: "AUTO"
-						GunId: "tacz:ak47"
-						HasBulletInBarrel: 1b
-					}
-				}
+			id: "7E6E78CC6587E500"
+			rewards: [{
+				count: 30
+				id: "5835BB18D5150A3D"
+				item: "kubejs:money"
 				type: "item"
 			}]
-			x: 25.0d
+			subtitle: "{ze.quest.427.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7C7B464DE3534033"
+				item: "refurbished_furniture:cheese"
+				type: "item"
+			}]
+			title: "{ze.quest.427.title}"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "268CF9756FD6A647"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				count: 10581L
+				id: "59C9BAF8A655D3E9"
+				item: { Count: 10581, id: "delightful:deluxe_cheeseburger" }
+				type: "item"
+			}]
+			x: 26.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "2171964187EF5571"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				count: 1500L
+				id: "482C7FB39060BD23"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "05CB245140D684A3"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				count: 3000L
+				id: "608F6C9BB924F636"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "4ED6FF0DF20620DA"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				amount: 50000000L
+				fluid: "mekanismgenerators:fusion_fuel"
+				id: "5392201D64AA8AE6"
+				type: "fluid"
+			}]
+			x: 26.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14BEFBE2D0EE71B8"]
+			hide_until_deps_complete: true
+			id: "343D39436814EB25"
+			subtitle: "{ze.quest.426.subtitle}"
+			tasks: [{
+				amount: 10000L
+				fluid: "industrialforegoing:ether_gas"
+				id: "155179AD83EF8892"
+				type: "fluid"
+			}]
+			x: 26.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.p.subtitle}"]

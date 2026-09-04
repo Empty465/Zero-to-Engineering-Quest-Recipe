@@ -11,6 +11,14 @@ ServerEvents.tags('item', event => {
         'industrialforegoing:plastic'
     ])
 
+    event.add('forge:cheese',[
+        'refurbished_furniture:cheese'
+    ])
+
+    event.add('forge:dusts/salt',[
+        'refurbished_furniture:sea_salt'
+    ])
+
     event.get('kubejs:quartz_budding').add([
         'ae2:flawless_budding_quartz',
         'ae2:flawed_budding_quartz',
