@@ -1,0 +1,18 @@
+{
+	id: "339130B03935F3EB"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 400, item: "minecraft:copper_block" }
+		{ count: 400, item: "minecraft:iron_block" }
+		{ count: 200, item: "minecraft:gold_block" }
+		{ count: 200, item: "minecraft:lapis_block" }
+		{ count: 200, item: "minecraft:redstone_block" }
+		{ count: 200, item: "minecraft:emerald_block" }
+		{ count: 200, item: "minecraft:quartz_block" }
+		{ count: 300, item: "minecraft:diamond_block" }
+		{ count: 200, item: "minecraft:amethyst_block" }
+		{ count: 200, item: "minecraft:netherite_block" }
+	]
+	title: "{ze.buy.allVanilla_Block}"
+}

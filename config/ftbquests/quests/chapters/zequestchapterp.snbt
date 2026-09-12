@@ -1912,6 +1912,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "45D3BBEFF5887484"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "437EDD71431BA3EE"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				consume_items: true
@@ -1927,6 +1933,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "242FC355CCFEF29B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73B573883B77C4F2"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				consume_items: true
@@ -1942,6 +1954,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "48365621E767B9C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31F72537FF5DB8AF"
+				table_id: 3715804700989584363L
+				type: "choice"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				amount: 145000000L
@@ -1956,6 +1974,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "309386B4102F3769"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BA0D16BEAB76B04"
+				table_id: 3715804700989584363L
+				type: "choice"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				amount: 402604032L
@@ -1970,6 +1994,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "045A26E2690B3A04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74BED4E1631945FE"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				consume_items: true
@@ -1985,6 +2015,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "12EEA971F369C7E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C8DE85832857B52"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				consume_items: true
@@ -2000,6 +2036,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "1C32039CA76D0191"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D61720EA1AFBA83"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				amount: 53000000L
@@ -2014,6 +2056,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "31F199C54A2435B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26AA7D9669D89733"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				consume_items: true
@@ -2029,6 +2077,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "5B9B66D8D9509E7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B37CE93232627CE"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				consume_items: true
@@ -2044,6 +2098,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "4B16148B5E953947"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79FFEDA98CBF4734"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				count: 55645L
@@ -2087,6 +2147,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "268CF9756FD6A647"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40185097449968B8"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				count: 10581L
@@ -2101,6 +2167,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "2171964187EF5571"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B13294A8ED00137"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				count: 1500L
@@ -2115,6 +2187,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "05CB245140D684A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "742FB5D70BC46993"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				count: 3000L
@@ -2129,6 +2207,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "4ED6FF0DF20620DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7723A28BC5FB52D2"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				amount: 50000000L
@@ -2143,6 +2227,12 @@
 			dependencies: ["14BEFBE2D0EE71B8"]
 			hide_until_deps_complete: true
 			id: "343D39436814EB25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "402704E7623077F4"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
 				amount: 10000L
