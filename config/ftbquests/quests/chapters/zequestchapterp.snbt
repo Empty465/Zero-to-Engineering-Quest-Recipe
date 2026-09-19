@@ -1956,9 +1956,9 @@
 			id: "48365621E767B9C2"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "31F72537FF5DB8AF"
+				id: "26E24C39CCEA4496"
 				table_id: 3715804700989584363L
-				type: "choice"
+				type: "all_table"
 			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
@@ -1976,9 +1976,9 @@
 			id: "309386B4102F3769"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1BA0D16BEAB76B04"
+				id: "0A90071CA1CA3532"
 				table_id: 3715804700989584363L
-				type: "choice"
+				type: "all_table"
 			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{

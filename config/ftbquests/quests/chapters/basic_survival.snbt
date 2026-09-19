@@ -608,11 +608,18 @@
 			description: ["{ze.quest.293.des}"]
 			icon: "create:brass_hand"
 			id: "53A330C9D357E5AD"
-			rewards: [{
-				id: "426B77A84ADC4324"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "426B77A84ADC4324"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56A840F96136AB8A"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+			]
 			subtitle: "{ze.quest.293.subtitle}"
 			tasks: [{
 				id: "784571551454DFBA"
