@@ -2106,10 +2106,11 @@
 			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
+				consume_items: true
 				count: 55645L
 				id: "135251781A5E03D3"
 				item: {
-					Count: 55645
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:556x45"
@@ -2155,9 +2156,10 @@
 			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
+				consume_items: true
 				count: 10581L
 				id: "59C9BAF8A655D3E9"
-				item: { Count: 10581, id: "delightful:deluxe_cheeseburger" }
+				item: "delightful:deluxe_cheeseburger"
 				type: "item"
 			}]
 			x: 26.5d
@@ -2175,6 +2177,7 @@
 			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
+				consume_items: true
 				count: 1500L
 				id: "482C7FB39060BD23"
 				item: "mekanism:steel_casing"
@@ -2195,6 +2198,7 @@
 			}]
 			subtitle: "{ze.quest.426.subtitle}"
 			tasks: [{
+				consume_items: true
 				count: 3000L
 				id: "608F6C9BB924F636"
 				item: "mekanism:ultimate_control_circuit"
