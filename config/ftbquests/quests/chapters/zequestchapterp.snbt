@@ -2116,6 +2116,7 @@
 						AmmoId: "tacz:556x45"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 25.0d
