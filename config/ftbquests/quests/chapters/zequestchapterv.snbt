@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchapterv"
+	group: "08623641CBAA0C80"
+	hide_quest_until_deps_complete: true
+	icon: "shooting_star_demo:stellar_remote"
+	id: "7F8BFDBAFAE1D3BE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["7BFD7BBFE3748698"]
+		description: ["{ze.quest.428.des}"]
+		hide_until_deps_complete: true
+		icon: "ftbquests:book"
+		id: "17891D53994E970F"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "3EB29DF827AE9C9A"
+			table_id: 3591482205710434466L
+			type: "random"
+		}]
+		subtitle: "{ze.quest.384.subtitle}"
+		tasks: [{
+			id: "47A0282589656536"
+			title: "{ze.quest.task.acc}"
+			type: "checkmark"
+		}]
+		title: "{ze.quest.428.title}"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["{ze.quest.chapter.v.subtitle}"]
+	title: "{ze.quest.chapter.v}"
+}

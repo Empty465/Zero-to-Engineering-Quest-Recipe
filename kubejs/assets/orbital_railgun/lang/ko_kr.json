@@ -1,0 +1,13 @@
+{
+  "item.orbital_railgun.orbital_railgun": "궤도 레일건",
+  "item.orbital_railgun.orbital_railgun.tooltip": "치명적인 궤도 타격을 요청합니다.",
+  "item.orbital_railgun.orbital_railgun.tooltip.shift1": "⚡ 우클릭을 길게 눌러 조준하고 조준이 완료되면 좌클릭으로 타격을 요청하세요.",
+  "item.orbital_railgun.orbital_railgun.tooltip.shift2": "",
+  "item.orbital_railgun.orbital_railgun.tooltip.shift3": "",
+  "tooltip.orbital_railgun.hold_shift": "길게 ⇧ Shift 눌러 세부 정보 보기",
+  "death.attack.strike": "%1$s은(는) 궤도 타격에 의해 소멸되었습니다.",
+  "subtitles.orbital_railgun.equip": "레일건 입수됨",
+  "subtitles.orbital_railgun.scope_on": "조준경 활성화됨",
+  "subtitles.orbital_railgun.railgun_shoot": "궤도 타격 요청됨",
+  "creativetab.orbital_railgun": "Orbital Railgun Reforged"
+}
