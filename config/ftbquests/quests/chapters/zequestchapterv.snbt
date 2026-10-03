@@ -8,28 +8,321 @@
 	id: "7F8BFDBAFAE1D3BE"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["7BFD7BBFE3748698"]
-		description: ["{ze.quest.428.des}"]
-		hide_until_deps_complete: true
-		icon: "ftbquests:book"
-		id: "17891D53994E970F"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "3EB29DF827AE9C9A"
-			table_id: 3591482205710434466L
-			type: "random"
-		}]
-		subtitle: "{ze.quest.384.subtitle}"
-		tasks: [{
-			id: "47A0282589656536"
-			title: "{ze.quest.task.acc}"
-			type: "checkmark"
-		}]
-		title: "{ze.quest.428.title}"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["7BFD7BBFE3748698"]
+			description: ["{ze.quest.428.des}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "17891D53994E970F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EB29DF827AE9C9A"
+				table_id: 3591482205710434466L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [{
+				id: "47A0282589656536"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.428.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["559AA1B2618C5E61"]
+			hide_until_deps_complete: true
+			id: "308E52835C6A47BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6621AA8DA73CA63C"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F83A6E852291817"
+					table_id: 3715804700989584363L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "6707F57EA6F25AFB"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17891D53994E970F"]
+			hide_until_deps_complete: true
+			id: "567DCD910D27EE99"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "196A02FE06F4052A"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "012DAD4087B72E52"
+					table_id: 3715804700989584363L
+					type: "all_table"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "501939D710DB5FFC"
+					item: "mekanism:laser"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4A18AB27153F24F1"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "43CC6FAEB91FD029"
+					item: "mekanism:laser_tractor_beam"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17891D53994E970F"]
+			hide_until_deps_complete: true
+			id: "559AA1B2618C5E61"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03DCBA048CFDB79E"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0511FF1D026EC768"
+					table_id: 3715804700989584363L
+					type: "all_table"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "2B3C62B9F93809C6"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2BF66069A4B00BC1"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "607A18404FD2D410"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3971F11CA0CDFBD7"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "13DDB8504EAA7679"
+					item: "mekanism:ultimate_induction_provider"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"567DCD910D27EE99"
+				"308E52835C6A47BF"
+				"3D9FA81977E7A59C"
+				"0E96B5D52A4FF7C8"
+			]
+			hide_until_deps_complete: true
+			id: "477A3B5204452564"
+			tasks: [{
+				elapsedTime: 7200L
+				gameTime: "game"
+				id: "062E271A26597B79"
+				title: "{ze.quest.task.time.6day}"
+				type: "questsadditions:time"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["477A3B5204452564"]
+			hide_until_deps_complete: true
+			icon: "orbital_railgun:orbital_railgun"
+			id: "506D3A57F4375E9C"
+			rewards: [
+				{
+					id: "0EC314E1CF5509BE"
+					item: "orbital_railgun:orbital_railgun"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"selector\":\"@s\"},{\"translate\":\"ze.quest.reward.tech.orbitalcannon.t\",\"color\":\"gold\"}]"
+					elevate_perms: true
+					id: "7D57CC1F4BAB9483"
+					title: "{ze.quest.reward.tech.orbitalcannon}"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7E111CB16841314F"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"506D3A57F4375E9C"
+				"7E33E14D7F1814FE"
+				"0874AC054EFEDB16"
+			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "166C5E8F9AD3B8DA"
+			tasks: [{
+				id: "4FA47FEDEBF459D9"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["17891D53994E970F"]
+			hide_until_deps_complete: true
+			id: "3D9FA81977E7A59C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "467278537D540DED"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75CD482221C52FAE"
+					table_id: 3715804700989584363L
+					type: "all_table"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "00A0B8F10B89EC98"
+					item: "immersiveengineering:storage_aluminum"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "48169476928F3A68"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:storage_blocks/steel)"
+						}
+					}
+					title: "{ze.quest.task.any.steel_block}"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"17891D53994E970F"
+				"54C1B9E2206611D5"
+			]
+			hide_until_deps_complete: true
+			id: "0E96B5D52A4FF7C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D755B6D69624155"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12E15AB8B6616629"
+					table_id: 3715804700989584363L
+					type: "all_table"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "477223F423F343FE"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "08DE972629E621AC"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "14411AB3059565AE"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0405857DD32D035E"
+					item: "myotus:compat_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "31AEAF7D2DE5A8F3"
+					item: "cyber_ware_port:radio_tower_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 252L
+					id: "471CE2F35E688603"
+					item: "cyber_ware_port:radio_tower_component"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
 	subtitle: ["{ze.quest.chapter.v.subtitle}"]
 	title: "{ze.quest.chapter.v}"
 }

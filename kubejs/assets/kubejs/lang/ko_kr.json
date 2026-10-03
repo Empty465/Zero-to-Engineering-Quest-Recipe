@@ -226,6 +226,8 @@
     "ze.quest.reward.tech.end.avratia": "이 세상에 당신이 기술의 정점에 섰다는 것을 발표합니다.",
     "ze.quest.reward.tech.end.beyondoverworld": "이 세상에 당신의 오버월드 탈출을 발표합니다.",
     "ze.quest.reward.tech.end.hardcoreItem": "이 세상에 당신의 모든 의문의 신호 의뢰 완수를 발표합니다.",
+    "ze.quest.reward.tech.orbitalcannon": "이 세상에 당신의 궤도 타격 준비를 발표합니다.",
+    "ze.quest.reward.tech.shootingstar": "이 세상에 당신의 항성 포격 준비를 발표합니다.",
 
     "ze.quest.reward.tech.end.t": "(이)가 기술의 끝에 도달하였습니다.",
     "ze.quest.reward.tech.end.bo": "(이)가 오버월드를 탈출하였습니다.",
@@ -237,6 +239,8 @@
     "ze.quest.reward.tech.space.t": "(이)가 외계 세력과 접촉하였습니다.",
     "ze.quest.reward.tech.space.ship": "(이)가 탈출선 재료를 모두 구했습니다.",
     "ze.quest.reward.tech.end.hardcoreItem.t": "(이)가 모든 의문의 신호 의뢰를 완수했습니다.",
+    "ze.quest.reward.tech.orbitalcannon.t": "(이)가 궤도 타격 준비를 마쳤습니다.",
+    "ze.quest.reward.tech.shootingstar.t": "(이)가 항성 포격 준비를 마쳤습니다.",
 
     "ze.quest.0.title": "추락",
     "ze.quest.0.subtitle": "보급 선택",
@@ -1975,8 +1979,8 @@
     "ze.quest.427.subtitle": "치즈",
     "ze.quest.427.des": "(PDA로 번역됨) 우유와 소금을 통해 치즈를 만들 수 있습니다.",
 
-    "ze.quest.428.title": "궤도 폭격 기지 건설을 위한 준비",
-    "ze.quest.428.des": "(PDA로 번역됨) 엔지니어팀과 전투 지원팀의 공동 프로젝트로써, 오버월드까지 닿을 수 있는 궤도 폭격 기지를 건설할 것입니다.\n\n만약, 당신이 기지 건설을 위한 재료들을 공급해 주신다면 당신에게도 궤도 폭격 요청 권한을 드리도록 하겠습니다.",
+    "ze.quest.428.title": "궤도 타격 기지 건설을 위한 준비",
+    "ze.quest.428.des": "(PDA로 번역됨) 엔지니어팀과 전투 지원팀의 공동 프로젝트로써, 오버월드까지 닿을 수 있는 궤도 타격 기지를 건설할 것입니다.\n\n만약, 당신이 기지 건설을 위한 재료들을 공급해 주신다면 당신에게도 궤도 타격 요청 권한을 드리도록 하겠습니다.",
 
 
     "ze.quest.N.title": "",
