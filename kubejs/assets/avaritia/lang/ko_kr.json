@@ -103,7 +103,7 @@
   "tooltip.avaritia.skullfire_sword.desc": "스켈레톤의 머리를 베어 검게 태워 버립니다.",
   "tooltip.avaritia.infinity_singularity.desc": "수많은 특이점을 융합한 창조물입니다.",
   "tooltip.matter_cluster.counter": "%s / %s 개의 아이템",
-  "tooltip.matter_cluster.desc": "해체하는데 이용됩니다.",
+  "tooltip.matter_cluster.desc": "사용키를 눌러 해체할 수 있습니다.",
   "tooltip.matter_cluster.desc2": "SHIFT를 눌러 내용물을 볼 수 있습니다.",
   "tooltip.avaritia.infinity_chest.desc": "온 세상을 담을 수 있다고 전해집니다.",
   

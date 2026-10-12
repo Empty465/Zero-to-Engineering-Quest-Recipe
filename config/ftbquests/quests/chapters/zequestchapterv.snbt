@@ -4,7 +4,7 @@
 	filename: "zequestchapterv"
 	group: "08623641CBAA0C80"
 	hide_quest_until_deps_complete: true
-	icon: "shooting_star_demo:stellar_remote"
+	icon: "entropyinversion:entropy_inversion_requestor"
 	id: "7F8BFDBAFAE1D3BE"
 	order_index: 1
 	quest_links: [ ]
@@ -33,6 +33,7 @@
 		}
 		{
 			dependencies: ["559AA1B2618C5E61"]
+			description: ["{ze.quest.434.des}"]
 			hide_until_deps_complete: true
 			id: "308E52835C6A47BF"
 			rewards: [
@@ -49,17 +50,29 @@
 					type: "all_table"
 				}
 			]
-			tasks: [{
-				id: "6707F57EA6F25AFB"
-				max_input: 1000L
-				type: "forge_energy"
-				value: 1L
-			}]
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "65C986FE44ACABC0"
+					item: "mekanismgenerators:solar_panel"
+					type: "item"
+				}
+				{
+					id: "6707F57EA6F25AFB"
+					max_input: 1000000L
+					type: "forge_energy"
+					value: 1000000000L
+				}
+			]
+			title: "{ze.quest.434.title}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["17891D53994E970F"]
+			description: ["{ze.quest.435.des}"]
 			hide_until_deps_complete: true
 			id: "567DCD910D27EE99"
 			rewards: [
@@ -76,31 +89,40 @@
 					type: "all_table"
 				}
 			]
+			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
+					count: 100L
 					id: "501939D710DB5FFC"
 					item: "mekanism:laser"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 200L
 					id: "4A18AB27153F24F1"
 					item: "mekanism:laser_amplifier"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 60L
 					id: "43CC6FAEB91FD029"
 					item: "mekanism:laser_tractor_beam"
 					type: "item"
 				}
 			]
+			title: "{ze.quest.435.title}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["17891D53994E970F"]
+			dependencies: [
+				"17891D53994E970F"
+				"6498651F7E1979C2"
+			]
+			description: ["{ze.quest.433.des}"]
 			hide_until_deps_complete: true
 			id: "559AA1B2618C5E61"
 			rewards: [
@@ -117,38 +139,45 @@
 					type: "all_table"
 				}
 			]
+			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
+					count: 200L
 					id: "2B3C62B9F93809C6"
 					item: "mekanism:induction_casing"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 2L
 					id: "2BF66069A4B00BC1"
 					item: "mekanism:induction_port"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 1534L
 					id: "607A18404FD2D410"
 					item: "mekanism:structural_glass"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 100L
 					id: "3971F11CA0CDFBD7"
 					item: "mekanism:ultimate_induction_cell"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 100L
 					id: "13DDB8504EAA7679"
 					item: "mekanism:ultimate_induction_provider"
 					type: "item"
 				}
 			]
+			title: "{ze.quest.433.title}"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -158,9 +187,13 @@
 				"308E52835C6A47BF"
 				"3D9FA81977E7A59C"
 				"0E96B5D52A4FF7C8"
+				"0878FA8E28BF6B2A"
+				"57E1BFE322B6F43F"
 			]
+			description: ["{ze.quest.436.des}"]
 			hide_until_deps_complete: true
 			id: "477A3B5204452564"
+			subtitle: "{ze.quest.310.subtitle}"
 			tasks: [{
 				elapsedTime: 7200L
 				gameTime: "game"
@@ -168,11 +201,13 @@
 				title: "{ze.quest.task.time.6day}"
 				type: "questsadditions:time"
 			}]
+			title: "{ze.quest.436.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["477A3B5204452564"]
+			description: ["{ze.quest.437.des}"]
 			hide_until_deps_complete: true
 			icon: "orbital_railgun:orbital_railgun"
 			id: "506D3A57F4375E9C"
@@ -191,11 +226,13 @@
 					type: "command"
 				}
 			]
+			subtitle: "{ze.quest.437.subtitle}"
 			tasks: [{
 				id: "7E111CB16841314F"
 				title: "{ze.quest.task.acc}"
 				type: "checkmark"
 			}]
+			title: "{ze.quest.437.title}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -214,10 +251,11 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["17891D53994E970F"]
+			description: ["{ze.quest.429.des}"]
 			hide_until_deps_complete: true
 			id: "3D9FA81977E7A59C"
 			rewards: [
@@ -234,15 +272,11 @@
 					type: "all_table"
 				}
 			]
+			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
-					id: "00A0B8F10B89EC98"
-					item: "immersiveengineering:storage_aluminum"
-					type: "item"
-				}
-				{
-					consume_items: true
+					count: 1500L
 					id: "48169476928F3A68"
 					item: {
 						Count: 1
@@ -254,15 +288,25 @@
 					title: "{ze.quest.task.any.steel_block}"
 					type: "item"
 				}
+				{
+					consume_items: true
+					count: 500L
+					id: "00A0B8F10B89EC98"
+					item: "immersiveengineering:storage_aluminum"
+					type: "item"
+				}
 			]
+			title: "{ze.quest.429.title}"
 			x: -1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: [
 				"17891D53994E970F"
-				"54C1B9E2206611D5"
+				"36861C335544B719"
+				"4C04BEE84DFA7227"
 			]
+			description: ["{ze.quest.431.des}"]
 			hide_until_deps_complete: true
 			id: "0E96B5D52A4FF7C8"
 			rewards: [
@@ -279,48 +323,371 @@
 					type: "all_table"
 				}
 			]
+			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
+					count: 256L
 					id: "477223F423F343FE"
 					item: "ae2:logic_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 256L
 					id: "08DE972629E621AC"
 					item: "ae2:calculation_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 256L
 					id: "14411AB3059565AE"
 					item: "ae2:engineering_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 256L
 					id: "0405857DD32D035E"
 					item: "myotus:compat_processor"
 					type: "item"
 				}
+			]
+			title: "{ze.quest.431.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"17891D53994E970F"
+				"54C1B9E2206611D5"
+			]
+			description: ["{ze.quest.432.des}"]
+			hide_until_deps_complete: true
+			id: "0878FA8E28BF6B2A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A729068D69E0704"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A974A061C3CADE4"
+					table_id: 3715804700989584363L
+					type: "all_table"
+				}
+			]
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [
 				{
 					consume_items: true
 					count: 6L
-					id: "31AEAF7D2DE5A8F3"
+					id: "04F4A224DFA9BE5D"
 					item: "cyber_ware_port:radio_tower_core"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 252L
-					id: "471CE2F35E688603"
+					id: "5822106E659E9A9F"
 					item: "cyber_ware_port:radio_tower_component"
 					type: "item"
 				}
 			]
+			title: "{ze.quest.432.title}"
 			x: 1.5d
-			y: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"17891D53994E970F"
+				"733E02733B5A8603"
+			]
+			description: ["{ze.quest.430.des}"]
+			hide_until_deps_complete: true
+			id: "57E1BFE322B6F43F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46C3678670390163"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70A39FE9EBABBBB6"
+					table_id: 3715804700989584363L
+					type: "all_table"
+				}
+			]
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [
+				{
+					id: "73C48ACBACE22F60"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					count: 1600L
+					id: "4C467DC1D44610A6"
+					item: { Count: 11, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.430.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B85FF0A6E8D87AB"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "entropyinversion:entropy_inversion_requestor"
+				tag: {
+					AttackMode: "asteroid_bombardment"
+				}
+			}
+			id: "0CFDE5B6392C7726"
+			rewards: [
+				{
+					id: "01C2549494531988"
+					item: {
+						Count: 1
+						id: "entropyinversion:entropy_inversion_requestor"
+						tag: {
+							AttackMode: "asteroid_bombardment"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"selector\":\"@s\"},{\"translate\":\"ze.quest.reward.tech.EIP.t\",\"color\":\"red\"}]"
+					elevate_perms: true
+					id: "5BF2FBA7ED1F8F7C"
+					title: "{ze.quest.reward.tech.EIP}"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4B909920A298EF04"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"166C5E8F9AD3B8DA"
+				"769F3DEDB517CFCC"
+			]
+			hide_until_deps_complete: true
+			id: "6D09898EA984413B"
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "47AE5EC8CFCCC513"
+					item: "create:transmitter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4B5EFCEE2EBBB9F4"
+					item: "ae2:wireless_receiver"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "67B38D4095ADB1A0"
+					item: "aeinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D09898EA984413B"]
+			hide_until_deps_complete: true
+			id: "5D6EFF400AA2D4A5"
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "504D2B6B5448DA61"
+					item: "cyber_ware_port:component_reactor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2E88089FD3C1DB96"
+					item: "cyber_ware_port:component_microelectric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7190D7F9C8F53054"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0BCFE6ABCD0DA8BE"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "75077369C1DEE517"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "176A1078260E37FF"
+					item: "myotus:compat_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5A9EF377BAF66454"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0BE9E50F791A005F"
+					item: "mekanism:teleportation_core"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D09898EA984413B"]
+			hide_until_deps_complete: true
+			id: "335CA7F6EEFE052B"
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "40B6CAD4765DC432"
+					item: "mekanism:laser"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29EAA9A60DBFC5A7"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1183860FEE0F2637"
+					item: "mekanism:laser_tractor_beam"
+					type: "item"
+				}
+				{
+					id: "6976379A2131B15E"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 1L
+				}
+				{
+					consume_items: true
+					id: "51DC932C3D6AFB3E"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D09898EA984413B"]
+			hide_until_deps_complete: true
+			id: "2BAAB77D086D17C2"
+			subtitle: "{ze.quest.384.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "385195ACF7BE3A08"
+					item: "mekaweapons:magnetizer"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4308A287B2BDC379"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "275F9A1DB9FF7448"
+					item: "immersiveengineering:electromagnet"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "53C267A89184639C"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2BAAB77D086D17C2"
+				"5D6EFF400AA2D4A5"
+				"335CA7F6EEFE052B"
+			]
+			hide_until_deps_complete: true
+			id: "1AFD0944F7355756"
+			tasks: [{
+				consume_items: true
+				id: "3392ED652957FDC7"
+				item: {
+					Count: 1
+					id: "rlovelyr:robot_core"
+					tag: {
+						color: 16
+						level: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1AFD0944F7355756"]
+			hide_until_deps_complete: true
+			id: "0B85FF0A6E8D87AB"
+			tasks: [{
+				elapsedTime: 7200L
+				gameTime: "game"
+				id: "089D098486947988"
+				title: "{ze.quest.task.time.6day}"
+				type: "questsadditions:time"
+			}]
+			x: 0.0d
+			y: 13.5d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.v.subtitle}"]
