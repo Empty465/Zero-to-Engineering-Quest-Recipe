@@ -242,14 +242,23 @@
 				"7E33E14D7F1814FE"
 				"0874AC054EFEDB16"
 			]
+			description: ["{ze.quest.438.des}"]
 			hide_until_deps_complete: true
 			icon: "ftbquests:book"
 			id: "166C5E8F9AD3B8DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D5360AC0A090BE3"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
+			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [{
 				id: "4FA47FEDEBF459D9"
 				title: "{ze.quest.task.acc}"
 				type: "checkmark"
 			}]
+			title: "{ze.quest.438.title}"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -443,6 +452,11 @@
 		}
 		{
 			dependencies: ["0B85FF0A6E8D87AB"]
+			description: [
+				"{ze.quest.446.des}"
+				"{@pagebreak}"
+				"{ze.quest.446.des2}"
+			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -474,11 +488,13 @@
 					type: "command"
 				}
 			]
+			subtitle: "{ze.quest.446.subtitle}"
 			tasks: [{
 				id: "4B909920A298EF04"
 				title: "{ze.quest.task.acc}"
 				type: "checkmark"
 			}]
+			title: "{ze.quest.446.title}"
 			x: 0.0d
 			y: 15.0d
 		}
@@ -487,76 +503,102 @@
 				"166C5E8F9AD3B8DA"
 				"769F3DEDB517CFCC"
 			]
+			description: ["{ze.quest.440.des}"]
 			hide_until_deps_complete: true
 			id: "6D09898EA984413B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C617A735F0FA09"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
+					count: 1024L
 					id: "47AE5EC8CFCCC513"
 					item: "create:transmitter"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 1024L
 					id: "4B5EFCEE2EBBB9F4"
 					item: "ae2:wireless_receiver"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 256L
 					id: "67B38D4095ADB1A0"
 					item: "aeinfinitybooster:dimension_card"
 					type: "item"
 				}
 			]
+			title: "{ze.quest.440.title}"
 			x: 0.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["6D09898EA984413B"]
+			description: ["{ze.quest.441.des}"]
 			hide_until_deps_complete: true
+			icon: "cyber_ware_port:component_microelectric"
 			id: "5D6EFF400AA2D4A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EE3B05DAFCADC4E"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
+					count: 10000L
 					id: "504D2B6B5448DA61"
 					item: "cyber_ware_port:component_reactor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 10000L
 					id: "2E88089FD3C1DB96"
 					item: "cyber_ware_port:component_microelectric"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 10000L
 					id: "7190D7F9C8F53054"
 					item: "ae2:logic_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 10000L
 					id: "0BCFE6ABCD0DA8BE"
 					item: "ae2:calculation_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 10000L
 					id: "75077369C1DEE517"
 					item: "ae2:engineering_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 10000L
 					id: "176A1078260E37FF"
 					item: "myotus:compat_processor"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 100L
 					id: "5A9EF377BAF66454"
 					item: {
 						Count: 1
@@ -569,34 +611,47 @@
 				}
 				{
 					consume_items: true
+					count: 10000L
 					id: "0BE9E50F791A005F"
 					item: "mekanism:teleportation_core"
 					type: "item"
 				}
 			]
+			title: "{ze.quest.441.title}"
 			x: -1.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6D09898EA984413B"]
+			description: ["{ze.quest.442.des}"]
 			hide_until_deps_complete: true
+			icon: "mekanism:laser_amplifier"
 			id: "335CA7F6EEFE052B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "778F3B2107C14B3B"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
+					count: 1500L
 					id: "40B6CAD4765DC432"
 					item: "mekanism:laser"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 1500L
 					id: "29EAA9A60DBFC5A7"
 					item: "mekanism:laser_amplifier"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 150L
 					id: "1183860FEE0F2637"
 					item: "mekanism:laser_tractor_beam"
 					type: "item"
@@ -605,49 +660,64 @@
 					id: "6976379A2131B15E"
 					max_input: 1000L
 					type: "forge_energy"
-					value: 1L
+					value: 10000000000L
 				}
 				{
 					consume_items: true
+					count: 10L
 					id: "51DC932C3D6AFB3E"
 					item: "avaritia:endest_pearl"
 					type: "item"
 				}
 			]
+			title: "{ze.quest.442.title}"
 			x: 0.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6D09898EA984413B"]
+			description: ["{ze.quest.443.des}"]
 			hide_until_deps_complete: true
+			icon: "mekaweapons:magnetizer"
 			id: "2BAAB77D086D17C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C768F4580CF37CE"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
 			subtitle: "{ze.quest.384.subtitle}"
 			tasks: [
 				{
 					consume_items: true
+					count: 980L
 					id: "385195ACF7BE3A08"
 					item: "mekaweapons:magnetizer"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 980L
 					id: "4308A287B2BDC379"
 					item: "mekanismgenerators:electromagnetic_coil"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 980L
 					id: "275F9A1DB9FF7448"
 					item: "immersiveengineering:electromagnet"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 9L
 					id: "53C267A89184639C"
 					item: "avaritia:endest_pearl"
 					type: "item"
 				}
 			]
+			title: "{ze.quest.443.title}"
 			x: 1.5d
 			y: 11.0d
 		}
@@ -657,8 +727,16 @@
 				"5D6EFF400AA2D4A5"
 				"335CA7F6EEFE052B"
 			]
+			description: ["{ze.quest.444.des}"]
 			hide_until_deps_complete: true
 			id: "1AFD0944F7355756"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4714F84522E63E78"
+				table_id: 3715804700989584363L
+				type: "all_table"
+			}]
+			subtitle: "{ze.quest.444.subtitle}"
 			tasks: [{
 				consume_items: true
 				id: "3392ED652957FDC7"
@@ -672,13 +750,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ze.quest.444.title}"
 			x: 0.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["1AFD0944F7355756"]
+			description: ["{ze.quest.445.des}"]
 			hide_until_deps_complete: true
 			id: "0B85FF0A6E8D87AB"
+			subtitle: "{ze.quest.310.subtitle}"
 			tasks: [{
 				elapsedTime: 7200L
 				gameTime: "game"
@@ -686,6 +767,7 @@
 				title: "{ze.quest.task.time.6day}"
 				type: "questsadditions:time"
 			}]
+			title: "{ze.quest.436.title}"
 			x: 0.0d
 			y: 13.5d
 		}
