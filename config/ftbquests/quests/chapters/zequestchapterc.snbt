@@ -2,24 +2,39 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "zequestchapterc"
-	group: "0FDE61B1C6A90A0B"
+	group: "0753A2AC132A65EB"
 	icon: "ae2:controller"
 	id: "0FF52ACD26229662"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2C5140F243CF63D9"]
-			description: [
-				"{ze.quest.89.des}"
-				"{image:kubejs:textures/quest/meteo.png width:160 height:90 align:center}"
-			]
+			dependencies: ["60C94D2A94C53DC3"]
+			description: ["{ze.quest.89.des}"]
 			hide_until_deps_complete: true
+			icon: "ae2:mysterious_cube"
 			id: "38D836D5D0E6B9BD"
 			rewards: [
 				{
 					id: "05C66B919182668C"
 					item: "ae2:guide"
+					type: "item"
+				}
+				{
+					id: "44BA909609D005BD"
+					item: "ae2:mysterious_cube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "138ED4F7DECE9D0A"
+					item: "ae2:flawed_budding_quartz"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34BB421C7D9DF4B9"
+					item: "ae2:sky_stone_block"
 					type: "item"
 				}
 				{
@@ -30,18 +45,16 @@
 			]
 			subtitle: "{ze.quest.89.subtitle}"
 			tasks: [{
-				icon: "ae2:sky_stone_block"
-				id: "7FBAD09953056458"
-				structure: "ae2:meteorite"
-				title: "{ze.quest.task.find.meteo}"
-				type: "structure"
+				id: "032B2394E3D4D644"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
 			}]
 			title: "{ze.quest.89.title}"
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["0151A3BE3524503C"]
+			dependencies: ["38D836D5D0E6B9BD"]
 			description: ["{ze.quest.131.des}"]
 			id: "4C04BEE84DFA7227"
 			rewards: [
@@ -64,13 +77,10 @@
 			}]
 			title: "{ze.quest.131.title}"
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"4C04BEE84DFA7227"
-				"38D836D5D0E6B9BD"
-			]
+			dependencies: ["4C04BEE84DFA7227"]
 			description: ["{ze.quest.132.des}"]
 			hide_until_deps_complete: true
 			id: "7CF6C13488D7CC6C"
@@ -755,25 +765,6 @@
 			title: "{ze.quest.150.title}"
 			x: 4.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["4C04BEE84DFA7227"]
-			description: ["{ze.quest.292.des}"]
-			id: "7F06D7060D76A0A3"
-			rewards: [{
-				id: "2E057AF3B008263C"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{ze.quest.292.subtitle}"
-			tasks: [{
-				id: "14886F1BCEFD2A10"
-				item: "ae2:meteorite_compass"
-				type: "item"
-			}]
-			title: "{ze.quest.292.title}"
-			x: -1.0d
-			y: -1.0d
 		}
 		{
 			dependencies: [

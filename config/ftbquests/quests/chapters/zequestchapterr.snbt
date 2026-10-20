@@ -8,7 +8,7 @@
 	group: "0753A2AC132A65EB"
 	icon: "kubejs:money"
 	id: "5B0CD4E4A49B5470"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1368,6 +1368,77 @@
 			title: "{ze.buy.r_rawOre} ({ze.buy.select})"
 			x: -5.0d
 			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["38D836D5D0E6B9BD"]
+			hide_until_deps_complete: true
+			icon: "ae2:mysterious_cube"
+			id: "67FC926C87E34020"
+			rewards: [{
+				id: "73DB1999DA6D3C8C"
+				item: "ae2:mysterious_cube"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 30L
+				id: "7173C5DA9C4914FA"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.mbox}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["38D836D5D0E6B9BD"]
+			description: ["{ze.buy.normal_quartz.des}"]
+			hide_until_deps_complete: true
+			icon: "ae2:flawed_budding_quartz"
+			id: "47F69F81C74A80A8"
+			rewards: [{
+				id: "4DDCE49FBB07759E"
+				item: "ae2:flawed_budding_quartz"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 20L
+				id: "176BEDCB893F2502"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.normal_quartz}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4136E28467153061"]
+			description: ["{ze.buy.good_quartz.des}"]
+			hide_until_deps_complete: true
+			icon: "ae2:flawless_budding_quartz"
+			id: "4FDEB682EB235624"
+			rewards: [{
+				id: "655AF560306E2822"
+				item: "ae2:flawless_budding_quartz"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 150L
+				id: "732850CA91157E8F"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.good_quartz}"
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.r.subtitle}"]
