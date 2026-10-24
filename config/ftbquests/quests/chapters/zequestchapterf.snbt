@@ -1720,7 +1720,7 @@
 				}
 			]
 			title: "{ze.quest.382.title}"
-			x: 6.0d
+			x: 5.5d
 			y: 7.5d
 		}
 		{
@@ -1846,6 +1846,37 @@
 			title: "{ze.quest.418.title}"
 			x: 1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["66A75BD673611F19"]
+			description: ["{ze.quest.447.des}"]
+			id: "7BDB87D576CB5B72"
+			rewards: [{
+				id: "028AA861420F3388"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.447.subtitle}"
+			tasks: [
+				{
+					id: "5DC060F5CF55121B"
+					item: "industrialforegoing:mob_duplicator"
+					type: "item"
+				}
+				{
+					id: "7199E04BDF1374C6"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+				{
+					id: "7468EC4EC707A9AA"
+					item: "industrialforegoing:mob_crusher"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.447.title}"
+			x: 6.5d
+			y: 7.5d
 		}
 	]
 	subtitle: ["{ze.quest.chatper.fd.subtitle}"]
