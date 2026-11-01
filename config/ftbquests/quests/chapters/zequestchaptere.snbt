@@ -45,7 +45,7 @@
 				item: "immersiveengineering:rs_engineering"
 				type: "item"
 			}]
-			title: "{ze.quest.59.title}"
+			title: "*{ze.quest.59.title}"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -101,7 +101,7 @@
 					type: "observation"
 				}
 			]
-			title: "{ze.quest.61.title}"
+			title: "*{ze.quest.61.title}"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -136,7 +136,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.64.title}"
+			title: "*{ze.quest.64.title}"
 			x: 0.5d
 			y: 2.5d
 		}
@@ -197,7 +197,7 @@
 					type: "observation"
 				}
 			]
-			title: "{ze.quest.66.title}"
+			title: "*{ze.quest.66.title}"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -258,7 +258,7 @@
 					type: "observation"
 				}
 			]
-			title: "{ze.quest.67.title}"
+			title: "*{ze.quest.67.title}"
 			x: 5.5d
 			y: 2.5d
 		}
@@ -315,7 +315,7 @@
 					type: "observation"
 				}
 			]
-			title: "{ze.quest.68.title}"
+			title: "*{ze.quest.68.title}"
 			x: 6.5d
 			y: 2.0d
 		}
@@ -343,7 +343,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.65.title}"
+			title: "*{ze.quest.65.title}"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -376,7 +376,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.60.title}"
+			title: "*{ze.quest.60.title}"
 			x: 1.5d
 			y: 1.0d
 		}
@@ -501,7 +501,7 @@
 					type: "observation"
 				}
 			]
-			title: "{ze.quest.62.title}"
+			title: "*{ze.quest.62.title}"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -655,7 +655,7 @@
 					type: "observation"
 				}
 			]
-			title: "{ze.quest.63.title}"
+			title: "*{ze.quest.63.title}"
 			x: 6.5d
 			y: -0.5d
 		}
@@ -675,7 +675,7 @@
 				item: "immersiveengineering:ingot_hop_graphite"
 				type: "item"
 			}]
-			title: "{ze.quest.71.title}"
+			title: "*{ze.quest.71.title}"
 			x: 9.5d
 			y: -0.5d
 		}
@@ -698,7 +698,7 @@
 				item: "immersiveengineering:plate_duroplast"
 				type: "item"
 			}]
-			title: "{ze.quest.69.title}"
+			title: "*{ze.quest.69.title}"
 			x: 7.5d
 			y: 2.0d
 		}
@@ -721,7 +721,7 @@
 				item: "immersiveengineering:component_electronic_adv"
 				type: "item"
 			}]
-			title: "{ze.quest.70.title}"
+			title: "*{ze.quest.70.title}"
 			x: 9.5d
 			y: 2.0d
 		}

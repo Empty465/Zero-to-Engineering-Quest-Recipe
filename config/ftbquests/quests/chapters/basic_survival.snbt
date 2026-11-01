@@ -34,7 +34,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.1.title}"
+			title: "*{ze.quest.1.title}"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -56,7 +56,7 @@
 				item: "farmersdelight:straw"
 				type: "item"
 			}]
-			title: "{zs.quest.4.title}"
+			title: "*{zs.quest.4.title}"
 			x: 0.5d
 			y: -0.5d
 		}
@@ -83,7 +83,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ze.quest.5.title}"
+			title: "*{ze.quest.5.title}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -112,7 +112,7 @@
 				title: "{ze.quest.task.any_wood_log}"
 				type: "item"
 			}]
-			title: "{ze.quest.6.title}"
+			title: "*{ze.quest.6.title}"
 			x: 3.0d
 			y: -0.5d
 		}
@@ -146,7 +146,7 @@
 				title: "{ze.quest.cheak}"
 				type: "checkmark"
 			}]
-			title: "{ze.quest.0.title}"
+			title: "*{ze.quest.0.title}"
 			x: -3.5d
 			y: -0.5d
 		}
@@ -175,7 +175,7 @@
 				title: "{ze.quest.task.any_wood_plank}"
 				type: "item"
 			}]
-			title: "{ze.quest.8.title}"
+			title: "*{ze.quest.8.title}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -220,7 +220,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.11.title}"
+			title: "*{ze.quest.11.title}"
 			x: 8.5d
 			y: -0.5d
 		}
@@ -240,7 +240,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "{ze.quest.10.title}"
+			title: "*{ze.quest.10.title}"
 			x: 5.5d
 			y: -0.5d
 		}
@@ -266,7 +266,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ze.quest.3_1.title}"
+			title: "*{ze.quest.3_1.title}"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -386,7 +386,7 @@
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			title: "{ze.quest.19.title}"
+			title: "*{ze.quest.19.title}"
 			x: 11.0d
 			y: -0.5d
 		}
@@ -409,7 +409,7 @@
 				item: "immersiveengineering:blastbrick"
 				type: "item"
 			}]
-			title: "{ze.quest.20.title}"
+			title: "*{ze.quest.20.title}"
 			x: 12.0d
 			y: -0.5d
 		}
@@ -449,7 +449,7 @@
 				title: "{ze.quest.task.any_steel_ingot}"
 				type: "item"
 			}]
-			title: "{ze.quest.21.title}"
+			title: "*{ze.quest.21.title}"
 			x: 13.5d
 			y: -0.5d
 		}
@@ -533,7 +533,7 @@
 				title: "{ze.quest.task.visit.ow}"
 				type: "dimension"
 			}]
-			title: "{ze.quest.196.title}"
+			title: "*{ze.quest.196.title}"
 			x: -5.0d
 			y: -0.5d
 		}
@@ -747,6 +747,36 @@
 			title: "{ze.quest.439.title}"
 			x: 8.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["0BA03863B165A101"]
+			description: ["{ze.quest.448.des}"]
+			id: "57AD2742EFECD6BB"
+			rewards: [{
+				id: "43587DEF248C0CA0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.448.subtitle}"
+			tasks: [{
+				id: "0D59BCC6B87E59B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Open: 0b
+							SelectedSlot: 0b
+							Size: 6
+						}
+					}
+					id: "supplementaries:lunch_basket"
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.448.title}"
+			x: 6.0d
+			y: 0.5d
 		}
 	]
 	subtitle: ["{ze.quest.chatper.a.subtitle}"]

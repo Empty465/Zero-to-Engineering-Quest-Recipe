@@ -498,6 +498,7 @@
 						Potion: "mutantmonsters:chemical_x"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -520,6 +521,7 @@
 				count: 2
 				id: "55B5FFA98405A904"
 				item: "industrialforegoing:plastic"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -541,6 +543,7 @@
 			rewards: [{
 				id: "70FF2BB3337CB7C9"
 				item: "farmersrespite:tea_seeds"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -562,6 +565,7 @@
 			rewards: [{
 				id: "7D90E6E90B4D27F0"
 				item: "farmersrespite:coffee_beans"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -586,6 +590,7 @@
 			rewards: [{
 				id: "1525236609F6BD83"
 				item: "tactical_aid:glucoseinjector"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -621,6 +626,7 @@
 						Damage: 0
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -656,6 +662,7 @@
 						Damage: 0
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -691,6 +698,7 @@
 						Damage: 0
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -726,6 +734,7 @@
 						Damage: 0
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -844,6 +853,7 @@
 				count: 1000
 				id: "50486501546AFF03"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -882,6 +892,7 @@
 				count: 1000
 				id: "5E502932A22FB4F7"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -921,6 +932,7 @@
 				count: 1000
 				id: "28F20F227E99510C"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -964,6 +976,7 @@
 				count: 1000
 				id: "33ED42431AC070DB"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -1002,6 +1015,7 @@
 				count: 200
 				id: "699627912D563243"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -1086,6 +1100,7 @@
 						Potion: "minecraft:long_night_vision"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -1108,6 +1123,7 @@
 				count: 20
 				id: "366BF48C00543C95"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -1131,6 +1147,7 @@
 				count: 20
 				id: "46BB49E4BCBAD991"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -1157,6 +1174,7 @@
 				count: 60
 				id: "75355FB29F54341A"
 				item: "kubejs:money"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.sell}"
@@ -1188,6 +1206,7 @@
 				count: 5
 				id: "4BF9815FAEFE8ECD"
 				item: "create:precision_mechanism"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -1209,6 +1228,7 @@
 				count: 10
 				id: "2D2F408A56BD4638"
 				item: "create:electron_tube"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -1230,6 +1250,7 @@
 				count: 30
 				id: "266F7F0BEAEF785C"
 				item: "immersiveengineering:steel_scaffolding_standard"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -1251,6 +1272,7 @@
 				count: 30
 				id: "057F8CDD9CBC46E6"
 				item: "immersiveengineering:component_iron"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -1272,6 +1294,7 @@
 				count: 20
 				id: "7D9DAC54494600BB"
 				item: "immersiveengineering:component_steel"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "{ze.buy}"
@@ -1293,6 +1316,7 @@
 				exclude_from_claim_all: true
 				id: "4C6D204D623DEEB7"
 				table_id: 3591482205710434466L
+				team_reward: true
 				type: "random"
 			}]
 			subtitle: "{ze.buy}"
@@ -1314,6 +1338,7 @@
 				exclude_from_claim_all: true
 				id: "530025BF459AC1D9"
 				table_id: 3591482205710434466L
+				team_reward: true
 				type: "choice"
 			}]
 			subtitle: "{ze.buy}"
@@ -1335,6 +1360,7 @@
 				exclude_from_claim_all: true
 				id: "41AFAB2567521BD4"
 				table_id: 272983700923047020L
+				team_reward: true
 				type: "random"
 			}]
 			subtitle: "{ze.buy}"
@@ -1356,6 +1382,7 @@
 				exclude_from_claim_all: true
 				id: "27D7FB3779E410BC"
 				table_id: 272983700923047020L
+				team_reward: true
 				type: "choice"
 			}]
 			subtitle: "{ze.buy}"
@@ -1439,6 +1466,40 @@
 			title: "{ze.buy.good_quartz}"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0392A1A134AEE140"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:blueprint"
+				tag: {
+					blueprint: "electrode"
+				}
+			}
+			id: "70F65CCD9E89D628"
+			rewards: [{
+				id: "5003B026428C703A"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 100L
+				id: "00F0870802EE3607"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.blueprint_arc_furnace_electrode}"
+			x: -9.0d
+			y: 0.5d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.r.subtitle}"]

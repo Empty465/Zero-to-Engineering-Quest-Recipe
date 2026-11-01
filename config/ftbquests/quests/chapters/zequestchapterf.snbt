@@ -42,7 +42,7 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "{ze.quest.82.title}"
+			title: "*{ze.quest.82.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -62,7 +62,7 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			title: "{ze.quest.90.title}"
+			title: "*{ze.quest.90.title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -114,7 +114,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.92.title}"
+			title: "*{ze.quest.92.title}"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -140,7 +140,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.96.title}"
+			title: "*{ze.quest.96.title}"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -185,7 +185,7 @@
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			title: "{ze.quest.95.title}"
+			title: "*{ze.quest.95.title}"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -204,7 +204,7 @@
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			title: "{ze.quest.103.title}"
+			title: "*{ze.quest.103.title}"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -233,7 +233,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.104.title}"
+			title: "*{ze.quest.104.title}"
 			x: 3.5d
 			y: -3.0d
 		}
@@ -313,7 +313,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.97.title}"
+			title: "*{ze.quest.97.title}"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -351,7 +351,7 @@
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			title: "{ze.quest.100.title}"
+			title: "*{ze.quest.100.title}"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -373,7 +373,7 @@
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
-			title: "{ze.quest.105.title}"
+			title: "*{ze.quest.105.title}"
 			x: 5.5d
 			y: -3.0d
 		}
@@ -410,7 +410,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.106.title}"
+			title: "*{ze.quest.106.title}"
 			x: 7.5d
 			y: -3.0d
 		}
@@ -432,7 +432,7 @@
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			title: "{ze.quest.101.title}"
+			title: "*{ze.quest.101.title}"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -454,7 +454,7 @@
 				item: "mekanism:chemical_oxidizer"
 				type: "item"
 			}]
-			title: "{ze.quest.102.title}"
+			title: "*{ze.quest.102.title}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -497,7 +497,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.107.title}"
+			title: "*{ze.quest.107.title}"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -759,7 +759,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.125.title}"
+			title: "*{ze.quest.125.title}"
 			x: 12.0d
 			y: -2.0d
 		}
@@ -844,7 +844,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.124.title}"
+			title: "*{ze.quest.124.title}"
 			x: 11.0d
 			y: -2.0d
 		}
@@ -875,7 +875,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.127.title}"
+			title: "*{ze.quest.127.title}"
 			x: 11.5d
 			y: 0.0d
 		}
@@ -913,7 +913,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.123.title}"
+			title: "*{ze.quest.123.title}"
 			x: 11.5d
 			y: -3.0d
 		}
@@ -935,7 +935,7 @@
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			title: "{ze.quest.126.title}"
+			title: "*{ze.quest.126.title}"
 			x: 11.5d
 			y: -1.0d
 		}
@@ -975,7 +975,7 @@
 				title: "{ze.quest.cheak}"
 				type: "checkmark"
 			}]
-			title: "{ze.quest.128.title}"
+			title: "*{ze.quest.128.title}"
 			x: 11.5d
 			y: 1.0d
 		}
@@ -1021,7 +1021,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.130.title}"
+			title: "*{ze.quest.130.title}"
 			x: 11.5d
 			y: 2.5d
 		}
@@ -1040,7 +1040,7 @@
 				item: "mekanism:ingot_refined_obsidian"
 				type: "item"
 			}]
-			title: "{ze.quest.143.title}"
+			title: "*{ze.quest.143.title}"
 			x: 7.5d
 			y: 1.0d
 		}
@@ -1059,7 +1059,7 @@
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			title: "{ze.quest.142.title}"
+			title: "*{ze.quest.142.title}"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -1336,7 +1336,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.361.title}"
+			title: "*{ze.quest.361.title}"
 			x: 13.5d
 			y: 1.0d
 		}
@@ -1370,7 +1370,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.362.title}"
+			title: "*{ze.quest.362.title}"
 			x: 14.0d
 			y: 2.0d
 		}
@@ -1404,7 +1404,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.363.title}"
+			title: "*{ze.quest.363.title}"
 			x: 13.0d
 			y: 2.0d
 		}
@@ -1445,7 +1445,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ze.quest.364.title}"
+			title: "*{ze.quest.364.title}"
 			x: 13.5d
 			y: 3.0d
 		}

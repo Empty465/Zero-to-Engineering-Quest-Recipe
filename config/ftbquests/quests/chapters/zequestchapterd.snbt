@@ -43,7 +43,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.22.title}"
+			title: "*{ze.quest.22.title}"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -76,7 +76,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.23.2.title}"
+			title: "*{ze.quest.23.2.title}"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -97,7 +97,7 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			title: "{ze.quest.23_1.title}"
+			title: "*{ze.quest.23_1.title}"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -117,7 +117,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			title: "{ze.quest.23.3.title}"
+			title: "*{ze.quest.23.3.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -150,7 +150,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			title: "{ze.quest.24.title}"
+			title: "*{ze.quest.24.title}"
 			x: 6.0d
 			y: -1.0d
 		}
@@ -180,7 +180,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.39.title}"
+			title: "*{ze.quest.39.title}"
 			x: 8.0d
 			y: -3.0d
 		}
@@ -201,7 +201,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			title: "{ze.quest.40.title}"
+			title: "*{ze.quest.40.title}"
 			x: 8.0d
 			y: -4.5d
 		}
@@ -227,7 +227,7 @@
 				item: "create:wrench"
 				type: "item"
 			}]
-			title: "{ze.quest.28.title}"
+			title: "*{ze.quest.28.title}"
 			x: 7.5d
 			y: -0.5d
 		}
@@ -246,7 +246,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			title: "{ze.quest.29.title}"
+			title: "*{ze.quest.29.title}"
 			x: 10.0d
 			y: -2.0d
 		}
@@ -271,7 +271,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			title: "{ze.quest.25.title}"
+			title: "*{ze.quest.25.title}"
 			x: 9.0d
 			y: -1.0d
 		}
@@ -292,7 +292,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			title: "{ze.quest.26.title}"
+			title: "*{ze.quest.26.title}"
 			x: 12.0d
 			y: -1.0d
 		}
@@ -354,7 +354,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.30.title}"
+			title: "*{ze.quest.30.title}"
 			x: 8.0d
 			y: 1.0d
 		}
@@ -378,7 +378,7 @@
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
-			title: "{ze.quest.44.title}"
+			title: "*{ze.quest.44.title}"
 			x: 12.0d
 			y: 1.0d
 		}
@@ -399,7 +399,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			title: "{ze.quest.41.title}"
+			title: "*{ze.quest.41.title}"
 			x: 12.0d
 			y: -3.0d
 		}
@@ -420,7 +420,7 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			title: "{ze.quest.47.title}"
+			title: "*{ze.quest.47.title}"
 			x: 14.0d
 			y: -1.0d
 		}
@@ -836,7 +836,7 @@
 					type: "item"
 				}
 			]
-			title: "{ze.quest.49.title}"
+			title: "*{ze.quest.49.title}"
 			x: 17.0d
 			y: -1.0d
 		}
@@ -973,7 +973,7 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			title: "{ze.quest.58.title}"
+			title: "*{ze.quest.58.title}"
 			x: 8.0d
 			y: -6.0d
 		}
