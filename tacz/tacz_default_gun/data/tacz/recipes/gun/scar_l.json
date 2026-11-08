@@ -29,6 +29,12 @@
         "item": "create:precision_mechanism"
       },
       "count": 5
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 4
     }
   ],
   "result": {

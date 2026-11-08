@@ -217,3 +217,13 @@
 .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
 .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/steel>))
 .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50)));
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("300blk")
+.transitionTo(<item:kubejs:un_ammo>)
+.require(<item:tacz:ammo>.withTag({AmmoId:"tacz:300blk"}))
+.loops(1)
+.addOutput(<item:tacz:ammo>.withTag({AmmoId:"tacz:300blk"}) * 15, 1)
+.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/brass>))
+.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+.addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50)));
