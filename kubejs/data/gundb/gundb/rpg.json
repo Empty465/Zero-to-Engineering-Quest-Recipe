@@ -1,7 +1,7 @@
 {
   "RepairItem": "#forge:ingots/steel",
   "MaxDurability": 256,
-  "Jam": true,
+  "Jam": false,
   "RepairCost": 2,
   "XpCost": 0,
   "Stats": [

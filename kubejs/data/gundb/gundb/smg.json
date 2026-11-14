@@ -4,6 +4,7 @@
   "Jam": true,
   "RepairCost": 6,
   "XpCost": 0,
+  "JamChance": 0.15,
   "Stats": [
     {
       "Type": ["AmmoSpeed", "Inaccuracy"],
