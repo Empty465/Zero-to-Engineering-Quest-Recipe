@@ -377,7 +377,7 @@
     "ze.quest.54.des":  "A classic firearm that\u0027s just as simple to craft.\nIt can only be loaded one round at a time, but it packs quite a punch early on.\n\nPress R to reload, right-click to aim, and left-click to fire.\nPress V for a melee attack and Ctrl to go prone.",
     "ze.quest.55.title":  "Sniper Born in Heaven",
     "ze.quest.55.subtitle":  "Vintage Springfield Scope",
-    "ze.quest.55.des":  "The only scope that can be mounted on the Springfield 1873 Trapdoor Rifle.\n\nHold the gun and press Z to open the gun modification screen and attach it.\n\nCrouching while aiming holds your breath and reduces screen sway, but hold it too long and the sway gets worse for a moment.",
+    "ze.quest.55.des":  "The only scope that can be mounted on the Springfield 1873 Trapdoor Rifle.\n\nHold the gun and press Z to open the gun modification screen and attach it.\n\nPress Shift while aiming holds your breath and reduces screen sway, but hold it too long and the sway gets worse for a moment.",
     "ze.quest.56.title":  "I Am the Kiln",
     "ze.quest.56.subtitle":  "Alloy Kiln",
     "ze.quest.56.des":  "Stack Kiln Bricks in a 2x2x2 shape, then right-click with an Engineer\u0027s Hammer to finish it.\n\nThe Alloy Kiln can smelt basic metals into alloys.",
